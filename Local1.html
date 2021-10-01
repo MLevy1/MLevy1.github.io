@@ -1,7 +1,5 @@
 <html>
-<head>
-<title>New Local Form</title>
-</head>
+
 <link href='https://fonts.googleapis.com/css?family=Homenaje' rel='stylesheet'>
 
 <style>
@@ -37,8 +35,7 @@ font-size: 30px;
 
 input {
 font-size: 30px;
-height: 55px;
-float: center;
+height: 75px;
 }
 
 h1 {
@@ -91,7 +88,6 @@ float: center;
 <body onoffline="bclr('SandyBrown')">
 
 <h1>New Local</h1>
-<p>2021-09-22</p>
 
 <span id="testres"></span>
 
@@ -217,67 +213,436 @@ float: center;
 
 <h2>Routine</h2>
 
-<input type="button" value=+ onclick="exsec('btnR')"/>
-
 <table class="btnR" id="tblRoutine"></table>
 
 <h2>Childcare</h2>
-
-<input type="button" value=+ onclick="exsec('btnC')"/>
 
 <table class="btnC" id="tblccare"></table>
 
 <h2>Social</h2>
 
-<input type="button" value=+ onclick="exsec('btnS')"/>
-
-
-<table id="tblsocial" class="btnS"></table>
+<table id="tblsocial"></table>
 
 <h2>Work</h2>
-
-<input type="button" value=+ onclick="exsec('btnW')"/>
-
-<table id="tblwork" class="btnW"></table>
+<table id="tblwork"></table>
 	
 <h2>Family</h2>
-
-<input type="button" value=+ onclick="exsec('btnF')"/>
-
-
-<table id="tblfam" class="btnF"></table>
+<table id="tblfam"></table>
 	
 <h2>Transport</h2>
-
-<input type="button" value=+ onclick="exsec('btnT')"/>
-
-<table id="tbltrans" class="btnT"></table>
+<table id="tbltrans"></table>
 	
 <h2>Health</h2>
-
-<input type="button" value=+ onclick="exsec('btnH')"/>
-
-
-<table id="tblhealth" class="btnH"></table>
+<table id="tblhealth"></table>
 	
 <h2>Food & Drink</h2>
-
-<input type="button" value=+ onclick="exsec('btnFD')"/>
-
-<table id="tblfood" class="btnFD"></table>
+<table id="tblfood"></table>
 	
 <h2>Chores</h2>
-
-<input type="button" value=+ onclick="exsec('btnCh')"/>
-
-
-<table id="tblchores" class="btnCh"></table>
+<table id="tblchores"></table>
 	
 <h2>Personal</h2>
+<table id="tblpersonal"></table>
 
-<input type="button" value=+ onclick="exsec('btnP')"/>
+<table id="tblbtn">
 
-<table id="tblpersonal" class="btnP"></table>
+	<tr>
+		
+		<td>
+		<input type="button" class="link" value=+ onclick="exsec('btnR')"/>
+		</td>
+		
+		<td colspan=7><b>Routine</td>
+		
+	</tr><tr><td></td>
+
+		<td><button class="btnR" onclick="btnJQL('N04', 'NA', '', 'Bed')">Bed</button></td>
+
+		<td><button class="btnR" onclick="btnJQL('B01', 'PERSONAL.2', '', 'Bathroom')">BR</button></td>
+
+		<td><button class="btnR" onclick="btnJQL('B08', 'PERSONAL.2', '', 'Bathroom-S')">BR-S</button></td>
+
+		<td><button class="btnR" onclick="btnJQL('B07', 'PERSONAL.2', '', 'Bathroom 2')">BR 2</button></td>
+
+		<td><button class="btnR" onclick="btnJQL('P29', 'PERSONAL.2', '', 'Shower')">Shower</button></td>
+
+		<td><button class="btnR" onclick="btnJQL('P60', 'PERSONAL.2', '', 'Floss')">Floss</button></td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnR" onclick="btnJQL('P09', 'PERSONAL.2', '', 'Brush Teeth')">Brush Teeth</button></td>
+		
+		<td><button class="btnR" onclick="btnJQL('P33', 'PERSONAL.2', '', 'Shave & Hair')"> Shave & Hair</button></td>
+
+		<td><button class="btnR" onclick="btnJQL('P20', 'PERSONAL.2', '', 'Dress')"> Dress</button></td>
+
+		<td><button class="btnR" onclick="btnJQL('P32', 'PERSONAL.2', '', 'Pack')">Pack</button></td>
+
+		<td><button class="btnR" onclick="btnJQL('P16', 'Dog', '', 'Dog')"> Dog</button></td>
+
+		<td><button class="btnR" onclick="btnJQL('P30', 'Dog', '', 'Walk (D)')">Walk (D)</button></td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnR" onclick="btnJQL('N02', 'TRANS.4', '', 'Drive (C)')">Drive (C)</button></td>
+
+		<td><button class="btnR" onclick="btnJQL('P30', 'TRANS.4', '', 'Walk (C)')">Walk (C)</button></td>
+
+		<td><button class="btnR" onclick="btnJQL('N02', 'TRANS.5', '', 'Drive (C-O)')">Drive (C-O)</button></td>
+
+		<td><button class="btnR" onclick="btnJQL('P12', 'PERSONAL.2', '', 'Fingernails')">Fingernails</button></td>
+
+		<td><button class="btnR" onclick="btnJQL('N02', 'TRANS.3', '', 'Drive (C-IR)')">Drive (C-IR)</button></td>
+
+		<td><button class="btnR" onclick="btnJQL('P30', 'TRANS.3', '', 'Walk (C-IR)')">Walk (C-IR)</button></td>
+
+	</tr><tr><td></td>
+
+	<td><button class="btnR" onclick="btnJQL('P29', 'Dog', '', 'Shower (D)')">Shower (D)</button></td>
+
+	</tr><tr>
+
+		<td>
+		<input type="button" class="link" value=+ onclick="exsec('btnC')"/>
+		</td>
+
+		<td colspan=2><b>Childcare</td>
+	
+	</tr><tr><td></td>
+
+		<td><button class="btnC" onclick="btnJQL('C03', 'CHC.R', '', 'Feeding')">Feeding</button></td>
+
+		<td><button class="btnC" onclick="btnJQL('C06', 'CHC.R', '', 'Crying')">Crying</button></td>
+
+		<td><button class="btnC" onclick="btnJQL('C01', 'CHC.R', '', 'Diaper 1')"> Diaper 1</button></td>
+
+		<td><button class="btnC" onclick="btnJQL('C02', 'CHC.R', '', 'Diaper 2')">Diaper 2</button></td>
+
+		<td><button class="btnC" onclick="btnJQL('C07', 'CHC.R', '', 'Tummy Time')">Tummy Time</button></td>
+		
+		<td><button class="btnC" onclick="btnJQL('C08', 'CHC.R', '', 'Reading')">Reading</button></td>
+		
+	</tr><tr><td></td>
+		
+		<td><button class="btnC" onclick="btnJQL('C09', 'CHC.R', '', 'Play')">Play</button></td>
+		
+		<td><button class="btnC" onclick="btnJQL('C04', 'CHC.R', '', 'Bath')">Bath</button></td>
+
+	</tr><tr>
+	
+		<td>
+		<input type="button" class="link" value=+ onclick="exsec('btnS')"/>
+		</td>
+		
+		<td colspan=2><b>Work Social</td>
+		
+
+	</tr><tr><td></td>
+
+		<td><button class="btnS" onclick="btnJQL('P30', 'ME', '', 'Walk (M)')">Walk (M)</button></td>
+
+		<td><button class="btnS" onclick="btnJQL('S04', 'CS', '', 'Coffee (CS)')">Coffee (CS)</button></td>
+
+		<td><button class="btnS" onclick="btnJQL('S07', 'ME', '', 'Meal (M)')"> Meal (M)</button></td>
+
+		<td><button class="btnS" onclick="btnJQL('S07', 'CW-Group', '', 'Meal (CW)')">Meal (CW)</button></td>
+
+		<td><button class="btnS" onclick="btnJQL('S01', 'CW-Group', '', 'Social (CW)')">Social (CW)</button></td>
+		
+		<td><button class="btnS" onclick="btnJQL('P30', 'CW-Group', '', 'Walk (CW)')">Walk (CW)</button></td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnS" onclick="btnJQL('S04', 'CW-Group', '', 'Coffee (CW)')">Coffee (CW)</button></td>
+
+		<td><button class="btnS" onclick="btnJQL('S13', 'CW-Group', '', 'Bar (CW)')">Bar (CW)</button></td>
+
+		<td><button class="btnS" onclick="btnJQL('S01', 'DC', '', 'Social (DC)')">Social (DC)</button></td>
+		
+		<td><button class="btnS" onclick="btnJQL('S01', 'ME', '', 'Social (ME)')">Social (ME)</button></td>
+
+	<td><button class="btnS" onclick="btnJQL('D04', 'AB', '', 'One-on-One (AB)')">One-on-One (AB)</button></td>
+
+	</tr><tr>
+
+		<td>
+		<input type="button" class="link" value=+ onclick="exsec('btnW')"/>
+		</td>
+
+		<td colspan=2><b>Work</td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnW" onclick="btnJQL('A02', 'ADMIN', '', 'Inbox')">Inbox</button></td>
+
+		<td><button class="btnW" onclick="btnJQL('W04', 'REP.02', '', 'Monthly Forum')">Monthly Forum</button></td>
+
+		<td><button class="btnW" onclick="btnJQL('W04', 'REP.01', '', 'Qtrly Report')">Qtrly Report</button></td>
+
+		<td><button class="btnW" onclick="btnJQL('W15', 'ISSUE.00', '', 'Issue Memo')">Issue Memo</button></td>
+
+		<td><button class="btnW" onclick="btnJQL('W04', 'ISSUE.00', '', 'Issues Reporting')">Issues Reporting</button></td>
+
+		<td><button class="btnW" onclick="btnJQL('W50', 'POL.00', '', 'Procedures - Policy')">Procedures - Policy</button></td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnW" onclick="btnJQL('M01', 'POL.00', '', 'Proj Meeting - Policy')">Proj Meeting - Policy</button></td>
+
+		<td><button class="btnW" onclick="btnJQL('W04', 'TG.0', '', 'Trade Monitoring')">Trade Monitoring</button></td>
+
+		<td><button class="btnW" onclick="btnJQL('A07', 'ADMIN', '', 'Tech Support')">Tech Support</button></td>
+		
+		</tr><tr>
+
+		<td>
+		<input type="button" class="link" value=+ onclick="exsec('btnF')"/>
+		</td>
+
+		<td colspan=2><b>Family</td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnF" onclick="btnJQL('N02', 'AD', '', 'Drive (A)')">Drive (A)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('N02', 'Family.3', '', 'Drive (F)')">Drive (F)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('S07', 'AD', '', 'Meal (A)')">Meal (A)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('S07', 'Family.3', '', 'Meal (F)')">Meal (F)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('S01', 'Family.1', '', 'Social (Mom)')">Social (Mom)</button></td>
+		
+		<td><button class="btnF" onclick="btnJQL('S01', 'Family.5', '', 'Social (A&P)')">Social (A&P)</button></td>
+		
+	</tr><tr><td></td>
+		
+		<td><button class="btnF" onclick="btnJQL('S07', 'Family.5', '', 'Meal (A&P)')">Meal (A&P)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('P30', 'AD', '', 'Walk (A)')">Walk (A)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('P30', 'Family.3', '', 'Walk (F)')">Walk (F)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('P56', 'AD', '', 'Hiking (A)')">Hiking (A)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('P56', 'Family.3', '', 'Hiking (F)')">Hiking (F)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('S01', 'AD', '', 'Social (A)')">Social (A)</button></td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnF" onclick="btnJQL('S01', 'Family.3', '', 'Social (F)')">Social (F)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('S10', 'AD', '', 'Shopping (A)')">Shopping (A)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('S10', 'Family.3', '', 'Shopping (F)')">Shopping (F)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('N03', 'AD', '', 'TV (A)')">TV (A)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('N03', 'Family.3', '', 'TV (F)')">TV (F)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('S09', 'Family.3', '', 'Events (F)')">Events (F)</button></td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnF" onclick="btnJQL('S09', 'AD', '', 'Events (A)')">Events (A)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('S04', 'Family.3', '', 'Coffee (F)')">Coffee (F)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('S11', 'AD', '', 'Pool (A)')">Pool (A)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('S11', 'Family.3', '', 'Pool (F)')">Pool (F)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('S12', 'AD', '', 'Beach (A)')">Beach (A)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('N02', 'Family.6', '', 'Drive (A&D)')">Drive (A&D)</button></td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnF" onclick="btnJQL('P30', 'Family.6', '', 'Walk (A&D)')">Walk (A&D)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('P56', 'Family.6', '', 'Hiking (A&D)')">Hiking (A&D)</button></td>
+
+		<td><button class="btnF" onclick="btnJQL('S12', 'Family.6', '', 'Beach (A&D)')">Beach (A&D)</button></td>
+
+	</tr><tr>
+
+		<td>
+			<input type="button" class="link" value=+ onclick="exsec('btnT')"/>
+		</td>
+
+		<td colspan=2><b>Transport</td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnT" onclick="btnJQL('N02', 'PERSONAL.5', '', 'Drive')">Drive</button></td>
+
+		<td><button class="btnT" onclick="btnJQL('P40', 'PERSONAL.5', '', 'Gas')">Gas</button></td>
+
+		<td><button class="btnT" onclick="btnJQL('N02', 'Dog', '', 'Drive (D)')">Drive (D)</button></td>
+
+		<td><button class="btnT" onclick="btnJQL('P50', 'PERSONAL.9', '', 'Public Trans')">Public Trans</button></td>
+
+		<td><button class="btnT" onclick="btnJQL('P50', 'AD', '', 'Public Trans (A)')">Public Trans (A)</button></td>
+
+		<td><button class="btnT" onclick="btnJQL('P51', 'PERSONAL.9', '', 'Airport')">Airport</button></td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnT" onclick="btnJQL('P51', 'AD', '', 'Airport (A)')">Airport (A)</button></td>
+
+		<td><button class="btnT" onclick="btnJQL('P49', 'PERSONAL.9', '', 'Air Travel')">Air Travel</button></td>
+
+		<td><button class="btnT" onclick="btnJQL('P49', 'AD', '', 'Air Travel (A)')">Air Travel (A)</button></td>
+
+	</tr><tr>
+
+		<td>
+			<input type="button" class="link" value=+ onclick="exsec('btnH')"/>
+		</td>
+		
+		<td colspan=2><b>Health</td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnH" onclick="btnJQL('P30', 'PERSONAL.4', '', 'Walk')">Walk</button></td>
+
+		<td><button class="btnH" onclick="btnJQL('P42', 'PERSONAL.4', '', 'Run')">Run</button></td>
+
+		<td><button class="btnH" onclick="btnJQL('P63', 'PERSONAL.4', '', 'Meditate')">Meditate</button></td>
+
+		<td><button class="btnH" onclick="btnJQL('P31', 'PERSONAL.4', '', 'Gym')">Gym</button></td>
+
+		<td><button class="btnH" onclick="btnJQL('P67', 'PERSONAL.4', '', 'Yoga')">Yoga</button></td>
+
+		<td><button class="btnH" onclick="btnJQL('P42', 'Dog', '', 'Run (D)')">Run (D)</button></td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnH" onclick="btnJQL('P57', 'PERSONAL.4', '', 'Biking')">Biking</button></td>
+
+		<td><button class="btnH" onclick="btnJQL('P15', 'PERSONAL.4', '', 'Doctor')">Doctor</button></td>
+
+	</tr><tr>
+	
+		<td>
+			<input type="button" class="link" value=+ onclick="exsec('btnFD')"/>
+		</td>
+
+		<td colspan=2><b>Food & Drink</td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnFD" onclick="btnJQL('B02', 'PERSONAL.8', '', 'Eat')">Eat</button></td>
+
+		<td><button class="btnFD" onclick="btnJQL('B06', 'BREAK', '', 'Beverage')">Beverage</button></td>
+
+		<td><button class="btnFD" onclick="btnJQL('P45', 'PERSONAL.8', '', 'Pick-up Food')">Pick-up Food</button></td>
+
+		<td><button class="btnFD" onclick="btnJQL('P13', 'PERSONAL.8', '', 'Cook')">Cook</button></td>
+
+		<td><button class="btnFD" onclick="btnJQL('B09', 'PERSONAL.8', '', 'Eat Slow')">Eat Slow</button></td>
+		
+				<td><button class="btnFD" onclick="btnJQL('B05', 'PERSONAL.8', '', 'Order Food')">Order Food</button></td>
+		
+	</tr><tr>
+
+		<td>
+			<input type="button" class="link" value=+ onclick="exsec('btnCh')"/>
+		</td>
+
+		<td colspan=2><b>Chores</td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnCh" onclick="btnJQL('P35', 'PERSONAL.3', '', 'Dishes')">Dishes</button></td>
+
+		<td><button class="btnCh" onclick="btnJQL('P34', 'PERSONAL.3', '', 'Laundry')">Laundry</button></td>
+
+		<td><button class="btnCh" onclick="btnJQL('P41', 'PERSONAL.3', '', 'Trash')">Trash</button></td>
+
+		<td><button class="btnCh" onclick="btnJQL('P59', 'PERSONAL.3', '', 'Vacuum')">Vacuum</button></td>
+
+		<td><button class="btnCh" onclick="btnJQL('P36', 'PERSONAL.7', '', 'Groceries')">Groceries</button></td>
+
+		<td><button class="btnCh" onclick="btnJQL('P22', 'PERSONAL.3', '', 'Haircut')">Haircut</button></td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnCh" onclick="btnJQL('P64', 'PERSONAL.3', '', 'Mail')">Mail</button></td>
+
+		<td><button class="btnCh" onclick="btnJQL('P61', 'PERSONAL.3', '', 'Sheets & Towels')"> Sheets & Towels</button></td>
+
+		<td><button class="btnCh" onclick="btnJQL('P37', 'PERSONAL.3', '', 'Lawn')">Lawn</button></td>
+
+		<td><button class="btnCh" onclick="btnJQL('P58', 'PERSONAL.3', '', 'Clean Kitchen')">Clean Kitchen</button></td>
+
+		<td><button class="btnCh" onclick="btnJQL('P48', 'PERSONAL.3', '', 'Clean Car')">Clean Car</button></td>
+
+		<td><button class="btnCh" onclick="btnJQL('P11', 'PERSONAL.3', '', 'Clean House')">Clean House</button></td>
+		
+	</tr><tr><td></td>
+
+		<td><button class="btnCh" onclick="btnJQL('P39', 'PERSONAL.7', '', 'Shopping: Home')">Shopping: Home</button></td>
+
+		<td><button class="btnCh" onclick="btnJQL('P47', 'PERSONAL.7', '', 'Shopping: Online')">Shopping: Online</button></td>
+
+		<td><button class="btnCh" onclick="btnJQL('P43', 'PERSONAL.3', '', 'Home Repairs')">Home Repairs</button></td>
+
+		<td><button class="btnCh" onclick="btnJQL('L03', 'PERSONAL.3', '', 'Car Repairs')">Car Repairs</button></td>
+
+	</tr><tr>
+
+		<td>
+		
+			<input type="button" class="link" value=+ onclick="exsec('btnP')"/>
+			
+		</td>
+
+		<td colspan=2><b>Personal</td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnP" onclick="btnJQL('P05', 'PERSONAL.A', '', 'Personal Admin')">Personal Admin</button></td>
+
+		<td><button class="btnP" onclick="btnJQL('P01', 'TIMEDB.0', '', 'Database')">Database</button></td>
+
+		<td><button class="btnP" onclick="btnJQL('P04', 'PFIN.00', '', 'Finances')">Finances</button></td>
+
+		<td><button class="btnP" onclick="btnJQL('P26', 'PERSONAL.1', '', 'JO')">JO</button></td>
+
+		<td><button class="btnP" onclick="btnJQL('N03', 'PERSONAL.1', '', 'TV')">TV</button></td>
+
+		<td><button class="btnP" onclick="btnJQL('L16', 'READ.1', '', 'Read')">Research</button></td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnP" onclick="btnJQL('L16', 'PERSONAL.4', '', 'Read')">Health</button></td>
+
+		<td><button class="btnP" onclick="btnJQL('L19', 'LEARNING.1', '', 'Crossword')">Crossword</button></td>
+
+		<td><button class="btnP" onclick="btnJQL('L05', 'SPA', '', 'DuoLingo: Spanish')">DuoLingo: Spanish</button></td>
+
+		<td><button class="btnP" onclick="btnJQL('L16', 'SPA', '', 'Read (Spanish)')">Read: Spanish</button></td>
+
+		<td><button class="btnP" onclick="btnJQL('L20', 'SPA', '', 'Writing (Spanish)')">Write: Spanish</button></td>
+
+		<td><button class="btnP" onclick="btnJQL('L14', 'PROG.3', '', 'JavaScript')">JavaScript</button></td>
+
+	</tr><tr><td></td>
+
+		<td><button class="btnP" onclick="btnJQL('P24', 'PERSONAL.1', '', 'Internet')">Internet</button></td>
+		
+		<td><button class="btnP" onclick="btnJQL('L16', 'NORM.FO', '', 'Food')">Food</button></td>
+		
+		<td><button class="btnP" onclick="btnJQL('L16', 'News', '', 'News')">News</button></td>
+		
+		<td><button class="btnP" onclick="btnJQL('P25', 'PFIN.08', '', 'Investments')">Investments</button></td>
+
+	</tr>
+
+</table>
+
 
 <!--END BUTTONS-->
 
@@ -312,15 +677,48 @@ float: center;
 
 <p id="asel"></p>
 
-<div id='elog'></div>
-
-<p>
-<?php 
-	echo "hi";
-    //include("../view/ViewPCodes.php");
-?>
-</p>
 <script>
+$("button").toggle();
+
+ebtnjql('N04', 'NA', 'Bed', "tblRoutine", "n", "n");
+
+ebtnjql('B01', 'PERSONAL.2', 'Bathroom', "tblRoutine", "n", "n");
+
+ebtnjql('B08', 'PERSONAL.2', 'Bathroom-S', "tblRoutine", "n", "n");
+
+ebtnjql('B07', 'PERSONAL.2', 'Bathroom 2', "tblRoutine", "n", "n");
+
+ebtnjql('P29', 'PERSONAL.2', 'Shower', "tblRoutine", "n", "n");
+
+ebtnjql('P60',  'PERSONAL.2', 'Floss', "tblRoutine", "n", "n");
+
+ebtnjql('P09', 'PERSONAL.2', 'Brush Teeth', "tblRoutine", "n", "n");
+		
+ebtnjql('P33', 'PERSONAL.2', 'Shave & Hair', "tblRoutine", "n", "n");
+
+ebtnjql('P20', 'PERSONAL.2', 'Dress', "tblRoutine", "n", "n");
+
+ebtnjql('P32', 'PERSONAL.2', 'Pack', "tblRoutine", "n", "n");
+
+ebtnjql('P16', 'Dog', 'Dog', "tblRoutine", "n", "n");
+
+ebtnjql('P30', 'Dog', 'Walk (D)', "tblRoutine", "n", "n");
+
+ebtnjql('N02', 'TRANS.4', 'Drive (C)', "tblRoutine", "n", "n");
+
+ebtnjql('P30', 'TRANS.4', 'Walk (C)', "tblRoutine", "n", "n");
+
+ebtnjql('N02', 'TRANS.5', 'Drive (C-O)', "tblRoutine", "n", "n");
+
+ebtnjql('P12', 'PERSONAL.2', 'Fingernails', "tblRoutine", "n", "n");
+
+ebtnjql('N02', 'TRANS.3', 'Drive (C-IR)', "tblRoutine", "n", "n");
+
+ebtnjql('P30', 'TRANS.3', 'Walk (C-IR)', "tblRoutine", "n", "n");
+
+ebtnjql('P29', 'Dog', 'Shower (D)', "tblRoutine", "n", "n");
+
+
 var text, ELen, MLen, i, tmv, tmt, ft, etmv, etmt, eft, eid;
 
 //sets variables to the hold contents of locally stored events, moods, activites, sub-activites, projects and use codes
@@ -359,215 +757,13 @@ if(LMoods===null){
 
 }
 
-
-ebtnjql('N04', 'NA', 'Bed', "tblRoutine", "n", "n", "n");
-
-ebtnjql('B01', 'PERSONAL.2', 'BR', "tblRoutine", "n", "n", "n");
-
-ebtnjql('B07', 'PERSONAL.2', 'BR-2', "tblRoutine", "n", "n", "n");
-
-ebtnjql('P29', 'PERSONAL.2', 'Shower', "tblRoutine", "n", "n", (2*60*60*24));
-
-ebtnjql('P60', 'PERSONAL.2', 'Floss', "tblRoutine", "n", "n", (2*60*60*24));
-
-ebtnjql('P09', 'PERSONAL.2', 'Brush Teeth', "tblRoutine", "n", "n", (2*60*60*24));
-		
-ebtnjql('P33', 'PERSONAL.2', 'Shave & Hair', "tblRoutine", "n", "n", (3*60*60*24));
-
-ebtnjql('P20', 'PERSONAL.2', 'Dress', "tblRoutine", "n", "n", "n");
-
-ebtnjql('P32', 'PERSONAL.2', 'Pack', "tblRoutine", "n", "n", "n");
-
-ebtnjql('P16', 'Dog', 'Dog', "tblRoutine", "n", "n", "n");
-
-ebtnjql('P30', 'Dog', 'Walk (D)', "tblRoutine", "n", "n", "n");
-
-ebtnjql('P12', 'PERSONAL.2', 'Fingernails', "tblRoutine", "n", "n", (10*60*60*24));
-
-ebtnjql('P29', 'Dog', 'Shower (D)', "tblRoutine", "n", "n", (30*60*60*24));
-
-ebtnjql('C03', 'CHC.R', 'Feeding', "tblccare", "n", "n", "n");
-
-ebtnjql('C01', 'CHC.R', 'Diaper 1', "tblccare", "n", "n", "n");
-
-ebtnjql('C02', 'CHC.R', 'Diaper 2', "tblccare", "n", "n", "n");
-
-ebtnjql('C08', 'CHC.R', 'Reading', "tblccare", "n", "n", (4*60*60*24));
-	
-ebtnjql('C09', 'CHC.R', 'Play', "tblccare", "n", "n", "n");
-	
-ebtnjql('C04', 'CHC.R', 'Bath', "tblccare", "n", "n", "n");
-
-ebtnjql('S01', 'CW-Group', 'Social (CW)', "tblsocial", "n", "n", "n");
-
-ebtnjql('S13', 'CW-Group', 'Bar (CW)', "tblsocial", "n", "n", "n");
-
-ebtnjql('S01', 'DC', 'Social (DC)', "tblsocial", "n", "n", "n");
-		
-ebtnjql('S01', 'ME', 'Social (ME)', "tblsocial", "n", "n", "n");
-
-ebtnjql('A02', 'ADMIN', 'Inbox', "tblwork", "n", "n", "n");
-
-ebtnjql('W15', 'ISSUE.00', 'Issue Memo', "tblwork", "n", "n", "n");
-
-ebtnjql('W04', 'ISSUE.00', 'Issues Reporting', "tblwork", "n", "n", "n");
-
-ebtnjql('W10', 'ISSUE.00', 'Email: Issues', "tblwork", "n", "n", "n");
-
-ebtnjql('M01', 'ISSUE.00', 'Issues R&C Mtg', "tblwork", "n", "n", "n");
-
-ebtnjql('M02', 'ISSUE.00', 'Issues Bus Mtg', "tblwork", "n", "n", "n");
-
-ebtnjql('W10', 'RCSA.00', 'Email: RCSA', "tblwork", "n", "n", "n");
-
-ebtnjql('M01', 'RCSA.00', 'RCSA R&C Mtg', "tblwork", "n", "n", "n");
-
-ebtnjql('M02', 'RCSA.00', 'RCSA: Bus Mtg', "tblwork", "n", "n", "n");
-
-ebtnjql('W04', 'RCSA.R', 'RCSA Rep', "tblwork", "n", "n", "n");
-
-ebtnjql('M01', 'SHRP.01', 'MR Ctr R&C Mtg', "tblwork", "n", "n", "n");
-
-ebtnjql('W10', 'SHRP.01', 'MR Ctr Email', "tblwork", "n", "n", "n");
-
-ebtnjql('W04', 'SHRP.01', 'MR Ctr Rep', "tblwork", "n", "n", "n");
-
-ebtnjql('T04', 'TRAINING.2', 'WF Training', "tblwork", "n", "n", "n");
-
-ebtnjql('W04', 'REP.01', 'Qtrly Report', "tblwork", "n", "n", "n");
-
-ebtnjql('W04', 'REP.00', 'Reporting: General', "tblwork", "n", "n", "n");
-
-ebtnjql('M01', 'REP.00', 'Rep R&C Mtg', "tblwork", "n", "n", "n");
-
-ebtnjql('W10', 'RC.00', 'Reg Ctr Email', "tblwork", "n", "n", "n");
-
-ebtnjql('M01', 'RC.00', 'Reg Ctr R&C Mtg', "tblwork", "n", "n", "n");
-
-ebtnjql('M10', 'MEET.01', 'Team Mtg', "tblwork", "n", "n", "n");
-
-ebtnjql('W50', 'POL.00', 'Procedures: Policy', "tblwork", "n", "n", "n");
-
-ebtnjql('M01', 'POL.00', 'Policy R&C Mtg', "tblwork", "n", "n", "n");
-
-ebtnjql('A07', 'ADMIN', 'Tech Support', "tblwork", "n", "n", "n");
-
-ebtnjql('N02', 'AD', 'Drive (A)', "tblfam", "n", "n", "n");
-
-ebtnjql('S07', 'AD', 'Meal (A)', "tblfam", "n", "n", "n");
-
-ebtnjql('S01', 'Family.1', 'Social (Mom)', "tblfam", "n", "n", "n");
-
-ebtnjql('P30', 'AD', 'Walk (A)', "tblfam", "n", "n", "n");
-
-ebtnjql('P56', 'AD', 'Hiking (A)', "tblfam", "n", "n", "n");
-
-ebtnjql('S01', 'AD', 'Social (A)', "tblfam", "n", "n", "n");
-
-ebtnjql('S01', 'Family.3', 'Social (F)', "tblfam", "n", "n", "n");
-
-ebtnjql('S10', 'AD', 'Shopping (A)', "tblfam", "n", "n", "n");
-
-ebtnjql('N03', 'AD', 'TV (A)', "tblfam", "n", "n", "n");
-
-ebtnjql('S09', 'AD', 'Events (A)', "tblfam", "n", "n", "n");
-
-ebtnjql('N02', 'Family.6', 'Drive (A&D)', "tblfam", "n", "n", "n");
-
-ebtnjql('P30', 'Family.6', 'Walk (A&D)', "tblfam", "n", "n", "n");
-
-ebtnjql('P56', 'Family.6', 'Hiking (A&D)', "tblfam", "n", "n", "n");
-
-ebtnjql('N02', 'PERSONAL.5', 'Drive', "tbltrans", "n", "n", "n");
-
-ebtnjql('P40', 'PERSONAL.5', 'Gas', "tbltrans", "n", "n", "n");
-
-ebtnjql('N02', 'Dog', 'Drive (D)', "tbltrans", "n", "n", "n");
-
-ebtnjql('P42', 'PERSONAL.4', 'Run', "tblhealth", "n", "n", "n");
-
-ebtnjql('P31', 'PERSONAL.4', 'Gym', "tblhealth", "n", "n", (7*60*60*24));
-
-ebtnjql('P63', 'PERSONAL.4', 'Meditate', "tblhealth", "n", "n", (7*60*60*24));
-
-ebtnjql('P30', 'PERSONAL.4', 'Walk', "tblhealth", "n", "n", "n");
-
-ebtnjql('P15', 'PERSONAL.4', 'Doctor', "tblhealth", "n", "n", "n");
-
-ebtnjql('B02', 'PERSONAL.8', 'Eat', "tblfood", "n", "n", "n");
-
-ebtnjql('B06', 'BREAK', 'Beverage', "tblfood", "n", "n", "n");
-
-ebtnjql('P45', 'PERSONAL.8', 'Pick-up Food', "tblfood", "n", "n", "n");
-
-ebtnjql('P13', 'PERSONAL.8', 'Cook', "tblfood", "n", "n", "n");
-
-ebtnjql('B09', 'PERSONAL.8', 'Eat Slow', "tblfood", "n", "n", "n");
-		
-ebtnjql('B05', 'PERSONAL.8', 'Order Food', "tblfood", "n", "n", "n");
-
-ebtnjql('P18', 'PERSONAL.4', 'Food Tracking', "tblfood", "n", "n", "n");
-		
-ebtnjql('P35', 'PERSONAL.3', 'Dishes', "tblchores", "n", "n", (4*60*60*24));
-
-ebtnjql('P34', 'PERSONAL.3', 'Laundry', "tblchores", "n", "n", (14*60*60*24));
-
-ebtnjql('P41', 'PERSONAL.3', 'Trash', "tblchores", "n", "n", (5*60*60*24));
-
-ebtnjql('P59', 'PERSONAL.3', 'Vacuum', "tblchores", "n", "n", "n");
-
-ebtnjql('P36', 'PERSONAL.7', 'Groceries', "tblchores", "n", "n", "n");
-
-ebtnjql('P22', 'PERSONAL.3', 'Haircut', "tblchores", "n", "n", (30*60*60*24));
-
-ebtnjql('P64', 'PERSONAL.3', 'Mail', "tblchores", "n", "n", (21*60*60*24));
-
-ebtnjql('P61', 'PERSONAL.3', 'Sheets & Towels', "tblchores", "n", "n", (30*60*60*24));
-
-ebtnjql('P37', 'PERSONAL.3', 'Lawn', "tblchores", "n", "n", "n");
-
-ebtnjql('P58', 'PERSONAL.3', 'Clean Kitchen', "tblchores", "n", "n", "n");
-
-ebtnjql('P48', 'PERSONAL.3', 'Clean Car', "tblchores", "n", "n", "n");
-
-ebtnjql('P11', 'PERSONAL.3', 'Clean House', "tblchores", "n", "n", (30*60*60*24));
-
-ebtnjql('P39', 'PERSONAL.7', 'Shopping: Home', "tblchores", "n", "n", "n");
-
-ebtnjql('P47', 'PERSONAL.7', 'Shopping: Online', "tblchores", "n", "n", "n");
-
-ebtnjql('P43', 'PERSONAL.3', 'Home Repairs', "tblchores", "n", "n", "n");
-
-ebtnjql('L03', 'PERSONAL.3', 'Car Repairs', "tblchores", "n", "n", "n");
-
-ebtnjql('P05', 'PERSONAL.A', 'Personal Admin', "tblpersonal", "n", "n", "n");
-
-ebtnjql('P01', 'TIMEDB.0', 'Database', "tblpersonal", "n", "n", "n");
-
-ebtnjql('P04', 'PFIN.00', 'Finances', "tblpersonal", "n", "n", "n");
-
-ebtnjql('P26', 'PERSONAL.1', 'JO', "tblpersonal", "n", "n", "n");
-
-ebtnjql('N03', 'PERSONAL.1', 'TV', "tblpersonal", "n", "n", "n");
-
-ebtnjql('L16', 'READ.1', 'Research', "tblpersonal", "n", "n", "n");
-
-ebtnjql('L16', 'PERSONAL.4', 'Read: Health', "tblpersonal", "n", "n", "n");
-
-ebtnjql('L19', 'LEARNING.1', 'Crossword', "tblpersonal", "n", "n", "n");
-
-ebtnjql('L14', 'PROG.3', 'JavaScript', "tblpersonal", "n", "n", "n");
-
-ebtnjql('P24', 'PERSONAL.1', 'Internet', "tblpersonal", "n", "n", "n");
-		
-ebtnjql('L16', 'News', 'News', "tblpersonal", "n", "n", "n");
-
 function emptyps(){
 
 	$("#csel").empty();
 	$("#psel").empty();
 	$("#spsel").empty();
 	$("#asel").empty();
+	
 }
 
 
@@ -588,11 +784,12 @@ function btnClearAll(){
 		
 		resetSVG('echt');
 		
-		document.getElementById("demo").innerHTML = LEvents;
-				
+document.getElementById("demo").innerHTML = LEvents;
+		
 		document.getElementById("moodtbl").innerHTML = LMoods;
 		
 	}
+	
 }
 
 function resetTime(){
@@ -997,14 +1194,14 @@ function resetLEvents(){
 
 	if(LEvents === undefined || LEvents.length == 0) {
     
-    	//do nothing
+    //do nothing
     
-	}else{
+}else{
 
-		localStorage.setItem("LSEvents", JSON.stringify(LEvents));
-		
-		displayLEvents();
-		
+	localStorage.setItem("LSEvents", JSON.stringify(LEvents));
+	
+	displayLEvents();
+	
 	}
 }
 
@@ -1012,13 +1209,13 @@ function resetLMoods(){
 
 	if(LMoods === undefined || LMoods.length == 0) {
     
-    	//do nothing
+    //do nothing
     
-	}else{
+}else{
 
-		localStorage.setItem("LSMoods", JSON.stringify(LMoods));
+	localStorage.setItem("LSMoods", JSON.stringify(LMoods));
 	
-		displayLMoods();
+	displayLMoods();
 	
 	}
 }
@@ -1134,6 +1331,7 @@ function GPost(){
 	}
 }
 
+
 function setTime(){
 	
 	var T = TimeArr();
@@ -1146,7 +1344,8 @@ function setTime(){
 	
 	$( "#selDT" ) . text(T[2]);
 	
-	bclr("black");	
+	bclr("black");
+	
 }
 
 function AddTime(min){
@@ -1259,39 +1458,21 @@ function displayList(arr){
 	document.getElementById("olist").innerHTML = text;
 }
 
-function ebtnjql(act, cont, bname, tbl, vrow, vcol, warn){
+function ebtnjql(act, cont, bname, tbl, vrow, vcol){
 	
 	let tname = tbl;
-
-	let w = warn;
 	
-	let arrelpTime = findLast(act, cont);
-
-	let elpTime = arrelpTime[0];
-
-	let wTime = arrelpTime[1];
+    var bc = $( "button" ).length;
 	
-	var bc = $( "button" ).length;
-	
-	var btnid = "btn"+bc;
+    var btnid = "btn"+bc;
 	
     var btn = document.createElement("BUTTON");
 	
     btn.id = btnid;
 	
-	btn.setAttribute('data-act', act);
-	
-	btn.setAttribute('data-cont', cont);
-	
     var t = document.createTextNode(bname);
     
-    var u = document.createTextNode(elpTime);
-    
     btn.appendChild(t);
-
-    btn.appendChild(document.createElement("br"));
-    
-    btn.appendChild(u);
     
     var tbl = document.getElementById(tbl);
     
@@ -1300,6 +1481,10 @@ function ebtnjql(act, cont, bname, tbl, vrow, vcol, warn){
     let cprow = 6;
     
     if(vrow == "n"){
+    		
+    		//buildtbl(tname, cprow);
+    		
+    		//START REPLACE
     		
     		if(trlen==0){
     
@@ -1323,6 +1508,8 @@ function ebtnjql(act, cont, bname, tbl, vrow, vcol, warn){
     		
     		vcol = vrow.insertCell();
     		
+    		//END REPLACE
+    		
     		vcol.appendChild(btn);
     
     }else{
@@ -1333,49 +1520,48 @@ function ebtnjql(act, cont, bname, tbl, vrow, vcol, warn){
     
     }
     
-
-    if (w!="n"){
-
-    	if(w < wTime){
-
-			document.getElementById(btnid).style.backgroundColor="red";    
-		
-		}
-	}
-
     document.getElementById(btnid). addEventListener("click", function(){
     
-    	btnJQL(act, cont, btnid, bname);
-  
-  	resetbtn();
-
+    	//btnJQL(act, cont, btnid, bname);
+    	alert("a:"+act+" c:"+cont+" b:"+btnid+" "+bname);
+    
 	});
 }
 
-function resetbtn(){
+function buildtbl(tbl, cprow){
 
-	let buttons = document.getElementsByTagName('button');
-  
- 	if(buttons){
- 
- 		for (i = 0; i < buttons.length; i++) {
- 
- 			let bact = buttons[i].getAttribute('data-act');
- 		
- 			let bcont = buttons[i].getAttribute('data-cont');
+	//cprow = 6 
+	
+	var tbl = document.getElementById(tbl);
+	
+	let trlen = tbl.rows.length;
+	
+	if(trlen==0){
+    
+    		vrow = tbl.insertRow();
+    		
+    	}else{
+    		
+    		trlen--;
+    		
+    		vrow = tbl.rows[trlen];
+    			
+    		rlen = vrow.cells.length;
+    		
+    		if(rlen>=cprow){
+    			
+    			vrow = tbl.insertRow();
+    				
+    		}
+    			
+    	}
+    		
+    	var vcol = vrow.insertCell();
 
- 			let arrelpTime = findLast(bact, bcont);
-
- 			let elpTime = arrelpTime[0];
- 
- 			let newnode = document.createTextNode(elpTime);
- 
- 			buttons[i].replaceChild(newnode, buttons[i].childNodes[2]);
- 
- 		}
- 
- 	}
+	return vcol;
 }
+
+
 
 function runaddCells() {
 
@@ -1392,7 +1578,8 @@ function runaddCells() {
 	emptyps();
 
 	//run function to add manual buttons to the sheet (argument ???)
-	addCells(LPU);	
+	addCells(LPU);
+	
 }
 
 function cncladdCells(){
@@ -1404,6 +1591,7 @@ function cncladdCells(){
 	$("#etbl").empty();
 	
 	emptyps();
+
 }
 
 function addCells(arr){
@@ -1426,117 +1614,117 @@ function addCells(arr){
  	//create an empty array to place contents of array passed to formula
 	var narr=[];
 
-	//loop from 0 to the number of cols above
+//loop from 0 to the number of cols above
 	for(j = 0; j < aSize; j++){
 
-		//add empty col to the empty array
+//add empty col to the empty array
 		narr.push([]);
 
 	}
 
-	//checks if the value of the LV variable is a value other than 0.  if it is, this block is executed
+//checks if the value of the LV variable is a value other than 0.  if it is, this block is executed
 	if(LV!=0){
 		
-		//#ROW LOOP: loops from 0 to the size of the first col of the array (value of L)
+//#ROW LOOP: loops from 0 to the size of the first col of the array (value of L)
 		for(i = 0; i < L; i++){
       
-			//checks if the key variable ??? is included in each element of the 3rd col of the array passed to the function
+//checks if the key variable ??? is included in each element of the 3rd col of the array passed to the function
 			if(arr[2][i].includes(key)==true){
 		
-				//#COL LOOP: loops from 0 to the number of cols in the array
+//#COL LOOP: loops from 0 to the number of cols in the array
 				for(j = 0; j < aSize; j++){
 
-					//Adds the value in each cell, COL j / ROW i, to the new array
+//Adds the value in each cell, COL j / ROW i, to the new array
 					var p = arr[j][i];
 			
 					narr[j].push(p);
 					
-					//end COL LOOP
+//end COL LOOP
         			}
 
-			//end if
+//end if
 			} 
 
-		//end ROW LOOP
+//end ROW LOOP
 		}
   	
-	//end LV if
+//end LV if
   	}else{
 		
 		//if no LV is provided, new array is set to the array passed to the function
 		narr=arr;
 
-	//end ELSE
+//end ELSE
 	}
 
-	//selects the event table
+//selects the event table
 	var table = document.getElementById("etbl");
 
-	//gets the length of the new array
+//gets the length of the new array
 	var L = narr[0].length;
 
-	//sets the number of buttons
+//sets the number of buttons
 	var rbtns = 6;
 
-	//determines the number of rows that will be needed 
+//determines the number of rows that will be needed 
 	var rnum = Math.floor(L/rbtns);
 
-	//determines the numbers of buttons in the last row
+//determines the numbers of buttons in the last row
 	var lrbtns = (L%rbtns);
 
-	//sets button counters to 0
+//sets button counters to 0
 	var bcnt = 0;
 
-	//block executed when more than 1 row is needed
+//block executed when more than 1 row is needed
 	if(rnum>0){
 
-	//block executed for each row needed [r represents the index of the row]
+//block executed for each row needed [r represents the index of the row]
 		for (r = 0; r < rnum; r++) {
 
-	//adds a row to the table [currently hard-coded as "etbl" above]
+//adds a row to the table [currently hard-coded as "etbl" above]
 			var row = table.insertRow(r);
 
-	//block executed for each button in each row
+//block executed for each button in each row
 			for (c = 0; c < rbtns; c++){
 
-				//sets a variable to the current button count by multiplying the row index [r] by the number of buttons in each row [rbtns] and adding the position in the current row [c]
+//sets a variable to the current button count by multiplying the row index [r] by the number of buttons in each row [rbtns] and adding the position in the current row [c]
 				var bcnt = (r*rbtns)+c;
 
-				//sets a variable to the 2nd element in the provided array for the index
+//sets a variable to the 2nd element in the provided array for the index
 				var bt = narr[1][bcnt];
 
-				//sets a variable to the 1st element in the provided array for the index
+//sets a variable to the 1st element in the provided array for the index
 				var bv = narr[0][bcnt];
 
-				//inserts a cell to the current row
+//inserts a cell to the current row
 				var cell = row.insertCell(c);
 
-				//sets a variable to the total number of buttons on the page
+//sets a variable to the total number of buttons on the page
 				var bc = $( "button" ).length;
 
-				//uses the number of buttons to create a new button id
+//uses the number of buttons to create a new button id
 				var btnid = "btn"+bc;
 
-				//creates a new button element
+//creates a new button element
 				var btn = document.createElement("BUTTON");
 
-				//assigns the id created above to the new button 
+//assigns the id created above to the new button 
 				btn.id = btnid;
 
-				//creates a text node based on the second element in the supplied array
+//creates a text node based on the second element in the supplied array
 				var t = document.createTextNode(bt);
 
-				//adds the text node to the new button
+//adds the text node to the new button
 				btn.appendChild(t);
 
-				//adds a value to the button based on the first element of the array
+//adds a value to the button based on the first element of the array
 				btn.value = bv;
 
-				//appends the button to the newly created cell
+//appends the button to the newly created cell
 				cell.appendChild(btn);
 				
-				//adds a function to the button 
-				document.getElementById(btnid). addEventListener("click", function(){
+//adds a function to the button 
+			document.getElementById(btnid). addEventListener("click", function(){
 
 					var cs = this.value;
 
@@ -1791,6 +1979,7 @@ function addCells(arr){
 }
 
 
+
 function setETime(){
 
 	var T = TimeArr();
@@ -1832,6 +2021,7 @@ function PriorEvent(){
 	}
 	
 	resetAll();
+
 }
 
 //updates the contents of a record in the events table
@@ -1861,9 +2051,18 @@ function clearForm(){
 	$("#pu"). text("");
 	$("#pu"). val("");
 	
+	/*
+	etmv = null;
+	etmt = null;
+	eft = null;
+	
+	eid = null;
+	*/
+	
 	cncladdCells();
 	
 	setTime();
+
 }
 
 //sets the background color
@@ -1891,6 +2090,7 @@ function faclr(act){
 	var clr = LPU[2][an2];
 	
 	return clr;
+
 }
 
 //sets the colors for the boxes in the mood chart
@@ -1929,65 +2129,68 @@ function smn(time){
 	var smn = ((time-mmn)/1000)/90;
 	
 	return smn;
+
 }
 
 //Draws colored boxes in svg charts
 
 function drawbox(id, x, w, f){
 
-	var element = document.getElementById(id);
+var element = document.getElementById(id);
 
-	var svg = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+var svg = document.createElementNS("http://www.w3.org/2000/svg", "rect");
 
-	svg.setAttribute('x', x);
-	svg.setAttribute('y', 0);
-	svg.setAttribute('width', w);
-	svg.setAttribute('height', 50);
-	svg.setAttribute('fill', f);
-	    
-	svg.setAttributeNS("http://www.w3.org/2000/xmlns/", "xmlns:xlink", "http://www.w3.org/1999/xlink");
-	    
-	element.appendChild(svg);
+svg.setAttribute('x', x);
+svg.setAttribute('y', 0);
+svg.setAttribute('width', w);
+svg.setAttribute('height', 50);
+svg.setAttribute('fill', f);
+    
+svg.setAttributeNS("http://www.w3.org/2000/xmlns/", "xmlns:xlink", "http://www.w3.org/1999/xlink");
+    
+element.appendChild(svg);
+
 }
 
 //Adds times to foreground of svg charts
 
 function svgtext(id){
 
-	var element = document.getElementById(id);
+var element = document.getElementById(id);
 
-	var svg = document.createElementNS("http://www.w3.org/2000/svg", "text");
+var svg = document.createElementNS("http://www.w3.org/2000/svg", "text");
 
-	svg.setAttribute('x', 0);
-	svg.setAttribute('y', 27.5);
-	svg.setAttribute('fill', 'white');
-	svg.setAttribute('font-weight', 'bold');
-	svg.setAttribute('font-size', 10);
+svg.setAttribute('x', 0);
+svg.setAttribute('y', 27.5);
+svg.setAttribute('fill', 'white');
+svg.setAttribute('font-weight', 'bold');
+svg.setAttribute('font-size', 10);
 
-	var txt = document.createTextNode("12A");
+var txt = document.createTextNode("12A");
 
-	svg.appendChild(txt);
+svg.appendChild(txt);
 
-	var arrTimes = ["12A", "3A", "6A", "9A", "12P", "3P", "6P", "9P"];
+var arrTimes = ["12A", "3A", "6A", "9A", "12P", "3P", "6P", "9P"];
 
-	for (c = 1; c <= 7; c++){
+for (c = 1; c <= 7; c++){
 
-	var xv = c*120;
+var xv = c*120;
 
-	var ts = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
+var ts = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
 
-	ts.setAttribute('x', xv);
-	ts.setAttribute('y', 27.5);
+ts.setAttribute('x', xv);
+ts.setAttribute('y', 27.5);
 
-	var txt = document.createTextNode(arrTimes[c]);
-	ts.appendChild(txt);
-	svg.appendChild(ts);
+var txt = document.createTextNode(arrTimes[c]);
+ts.appendChild(txt);
+svg.appendChild(ts);
 
-	}
+}
 
-	svg.setAttributeNS("http://www.w3.org/2000/xmlns/", "xmlns:xlink", "http://www.w3.org/1999/xlink");
+svg.setAttributeNS("http://www.w3.org/2000/xmlns/", "xmlns:xlink", "http://www.w3.org/1999/xlink");
 
-	element.appendChild(svg);
+element.appendChild(svg);
+
 }
 
 //expands section of form
@@ -1997,6 +2200,7 @@ function exsec(cls){
 	cls = "."+cls;
 
 	$(cls).toggle();
+
 }
 
 function resetSVG(id){
@@ -2004,6 +2208,7 @@ function resetSVG(id){
 	id = "#"+id;
 	
 	$(id).empty();
+
 }
 
 function resetAll(){
@@ -2013,23 +2218,21 @@ function resetAll(){
 	resetLEvents();
 	
 	resetLMoods();
-	
-	resetbtn();
+
 }
 
 function JQUpdate(act, cont, etime){
 
-	$.post("../update/UpdateJQ.php",
-	{
-		v1: act,
-		v2: cont,
-		v3: etime,
-		selTbl: 'tblEvents'
+ $.post("../update/UpdateJQ.php",
+    {
+        v1: act,
+        v2: cont,
+        v3: etime,
+        selTbl: 'tblEvents'
 	});
+
 }
 
-
-//USED IN FUNCTIONS: delEvent(l#1010) and delMood (l#1029)
 function JQDel(etime, tbl, index){
 
  $.post("../del/DelJQ.php",
@@ -2038,9 +2241,10 @@ function JQDel(etime, tbl, index){
         c1: index,
         selTbl: tbl
 	});
+
 }
 
-//USED IN MULTIPLE TIME FUNCTIONS
+
 function sqTime(etmv){
 
 	var p1 = etmv.substr(0,10);
@@ -2050,9 +2254,9 @@ function sqTime(etmv){
 	var etmv1 = (p1 + " " + p2);
 
 	return etmv1;
+	
 }
 
-//USED IN ALL TIME FUNCTIONS
 function zerofix(timeval){
 
 	if(timeval<10){
@@ -2066,49 +2270,41 @@ function zerofix(timeval){
 	}
 	
 	return ntimeval;
+
 }
 
-function tfct(){
-
-	alert("test");
-}
-
-
-//USED IN FUNCTIONS: ebtnjql(#1344) & resetbtn(l#1419)
 function findLast(actid, contid){
-	
+
 	LEvents.sort();
 	
 	LEvents.reverse();
 	
 	ELen = LEvents.length;
 
-	for (j = 0; j < ELen; j++) {
+	var endloop = 0;
+
+	for (i = 0; i < ELen; i++) {
 	
-		if(LEvents[j][1]==actid){
+		if(endloop===0){
+	
+			if(LEvents[i][1]==actid){
 		
-			if(LEvents[j][2]==contid){
+				if(LEvents[i][2]==contid){
 					
-				var ESecs = Math.round((Date.now()-LEvents[j][6]) / 1000);
+					var ESecs = Math.round((Date.now()-LEvents[i][6]) / 1000);
 					
-				var STime = ELTime(ESecs);
-
-				//return(STime);
-
-				let arrFL = [STime, ESecs];
-
-				return(arrFL);
+					var STime = ELTime(ESecs);
+					
+					return(STime);
+					endloop = 1;
 				
+				}
 			}
 		}
 	}
-	
-	let arrFL = ["N/A", 0];
-
-	return(arrFL);
 }
 
-//USED IN FUNCTION:  findLast 
+
 function ELTime(secs) {
 	
 	var days = secs / (60*60*24);
@@ -2141,8 +2337,6 @@ function ELTime(secs) {
 	}
 }
 
-
-//NOT USED
 function tbltest(){
 
 	var ele = document.getElementById("tblbtn");
@@ -2151,25 +2345,9 @@ function tbltest(){
 	
 	alert(tlen+" rows in tblbtn");
 	
-	alert(ele.rows[2].cells[2].innerHTML);
-}
+alert(ele.rows[2].cells[2].innerHTML);
 
-
-//NOT USED
-function testlog(text){
-
-	let objTL = document.createElement("LI");
-
-	let tline = document.createTextNode(text);
-	
-	objTL.appendChild(tline);
-
-	let e = document.getElementById("elog");
-	
-	e.appendChild(objTL);
 }
 </script>
-
 </body>
-
 </html>

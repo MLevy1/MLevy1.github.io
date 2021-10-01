@@ -91,8 +91,6 @@ float: center;
 
 <span id="testres"></span>
 
-<script>alert(1);</script>
-
 <table width=35%>
 	<tr>
 	
@@ -210,41 +208,6 @@ float: center;
 </table>
 
 <!--BUTTONS-->
-
-<table id="etbl" width=100%></table>
-
-<h2>Routine</h2>
-
-<table class="btnR" id="tblRoutine"></table>
-
-<h2>Childcare</h2>
-
-<table class="btnC" id="tblccare"></table>
-
-<h2>Social</h2>
-
-<table id="tblsocial"></table>
-
-<h2>Work</h2>
-<table id="tblwork"></table>
-	
-<h2>Family</h2>
-<table id="tblfam"></table>
-	
-<h2>Transport</h2>
-<table id="tbltrans"></table>
-	
-<h2>Health</h2>
-<table id="tblhealth"></table>
-	
-<h2>Food & Drink</h2>
-<table id="tblfood"></table>
-	
-<h2>Chores</h2>
-<table id="tblchores"></table>
-	
-<h2>Personal</h2>
-<table id="tblpersonal"></table>
 
 <table id="tblbtn">
 
@@ -680,9 +643,7 @@ float: center;
 <p id="asel"></p>
 
 <script>
-//$("button").toggle();
-
-alert("hi");
+$("button").toggle();
 
 var text, ELen, MLen, i, tmv, tmt, ft, etmv, etmt, eft, eid;
 
@@ -730,7 +691,6 @@ function emptyps(){
 	$("#asel").empty();
 	
 }
-
 
 function btnClearAll(){
 
@@ -873,7 +833,6 @@ function fmtime(EL){
 		
 }
 
-
 function displayLMoods(){
 
 	resetSVG("mcht");
@@ -976,7 +935,7 @@ function displayLMoods(){
 function displayLEvents(){
 
 	resetSVG('echt');
-
+	
 	var arrchart = [];
 
 	LEvents.sort();
@@ -1003,6 +962,7 @@ function displayLEvents(){
 		
 		}
 		
+		
 		fmtime(EL);
 		
 		if(i>0){
@@ -1016,11 +976,12 @@ function displayLEvents(){
 			
 		}
 		
+		
 		var ac0 = "echt";
 		var ac1 = smn(LEvents[i][6]);
 		var ac2 = (EL / 1000)/90;
 		var ac3 = faclr(LEvents[i][1]);
-		
+
 		if(ac1<0){
 		
 			if(at>0){
@@ -2041,7 +2002,9 @@ function bclr(clr){
 //determines the color of each box on the event chart
 
 function faclr(act){
-	
+//BUG 1: CAN'T WORK WITHOUT LOCAL ACTS and PUS
+
+	/*
 	var arrAct = LActs[0];
 		
 	var ans = $.inArray(act, arrAct);
@@ -2054,6 +2017,11 @@ function faclr(act){
 	
 	var clr = LPU[2][an2];
 	
+	*/
+
+	//TEMP!
+	let clr = "black";
+
 	return clr;
 
 }
@@ -2305,3 +2273,15 @@ function ELTime(secs) {
 function tbltest(){
 
 	var ele = document.getElementById("tblbtn");
+	
+	var tlen = ele.rows.length;
+	
+	alert(tlen+" rows in tblbtn");
+	
+alert(ele.rows[2].cells[2].innerHTML);
+
+}
+
+</script>
+</body>
+</html>
