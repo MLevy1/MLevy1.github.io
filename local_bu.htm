@@ -209,41 +209,6 @@ float: center;
 
 <!--BUTTONS-->
 
-<table id="etbl" width=100%></table>
-
-<h2>Routine</h2>
-
-<table class="btnR" id="tblRoutine"></table>
-
-<h2>Childcare</h2>
-
-<table class="btnC" id="tblccare"></table>
-
-<h2>Social</h2>
-
-<table id="tblsocial"></table>
-
-<h2>Work</h2>
-<table id="tblwork"></table>
-	
-<h2>Family</h2>
-<table id="tblfam"></table>
-	
-<h2>Transport</h2>
-<table id="tbltrans"></table>
-	
-<h2>Health</h2>
-<table id="tblhealth"></table>
-	
-<h2>Food & Drink</h2>
-<table id="tblfood"></table>
-	
-<h2>Chores</h2>
-<table id="tblchores"></table>
-	
-<h2>Personal</h2>
-<table id="tblpersonal"></table>
-
 <table id="tblbtn">
 
 	<tr>
@@ -680,45 +645,6 @@ float: center;
 <script>
 $("button").toggle();
 
-ebtnjql('N04', 'NA', 'Bed', "tblRoutine", "n", "n");
-
-ebtnjql('B01', 'PERSONAL.2', 'Bathroom', "tblRoutine", "n", "n");
-
-ebtnjql('B08', 'PERSONAL.2', 'Bathroom-S', "tblRoutine", "n", "n");
-
-ebtnjql('B07', 'PERSONAL.2', 'Bathroom 2', "tblRoutine", "n", "n");
-
-ebtnjql('P29', 'PERSONAL.2', 'Shower', "tblRoutine", "n", "n");
-
-ebtnjql('P60',  'PERSONAL.2', 'Floss', "tblRoutine", "n", "n");
-
-ebtnjql('P09', 'PERSONAL.2', 'Brush Teeth', "tblRoutine", "n", "n");
-		
-ebtnjql('P33', 'PERSONAL.2', 'Shave & Hair', "tblRoutine", "n", "n");
-
-ebtnjql('P20', 'PERSONAL.2', 'Dress', "tblRoutine", "n", "n");
-
-ebtnjql('P32', 'PERSONAL.2', 'Pack', "tblRoutine", "n", "n");
-
-ebtnjql('P16', 'Dog', 'Dog', "tblRoutine", "n", "n");
-
-ebtnjql('P30', 'Dog', 'Walk (D)', "tblRoutine", "n", "n");
-
-ebtnjql('N02', 'TRANS.4', 'Drive (C)', "tblRoutine", "n", "n");
-
-ebtnjql('P30', 'TRANS.4', 'Walk (C)', "tblRoutine", "n", "n");
-
-ebtnjql('N02', 'TRANS.5', 'Drive (C-O)', "tblRoutine", "n", "n");
-
-ebtnjql('P12', 'PERSONAL.2', 'Fingernails', "tblRoutine", "n", "n");
-
-ebtnjql('N02', 'TRANS.3', 'Drive (C-IR)', "tblRoutine", "n", "n");
-
-ebtnjql('P30', 'TRANS.3', 'Walk (C-IR)', "tblRoutine", "n", "n");
-
-ebtnjql('P29', 'Dog', 'Shower (D)', "tblRoutine", "n", "n");
-
-
 var text, ELen, MLen, i, tmv, tmt, ft, etmv, etmt, eft, eid;
 
 //sets variables to the hold contents of locally stored events, moods, activites, sub-activites, projects and use codes
@@ -765,7 +691,6 @@ function emptyps(){
 	$("#asel").empty();
 	
 }
-
 
 function btnClearAll(){
 
@@ -908,7 +833,6 @@ function fmtime(EL){
 		
 }
 
-
 function displayLMoods(){
 
 	resetSVG("mcht");
@@ -1011,7 +935,7 @@ function displayLMoods(){
 function displayLEvents(){
 
 	resetSVG('echt');
-
+	
 	var arrchart = [];
 
 	LEvents.sort();
@@ -1038,6 +962,7 @@ function displayLEvents(){
 		
 		}
 		
+		
 		fmtime(EL);
 		
 		if(i>0){
@@ -1051,11 +976,12 @@ function displayLEvents(){
 			
 		}
 		
+		
 		var ac0 = "echt";
 		var ac1 = smn(LEvents[i][6]);
 		var ac2 = (EL / 1000)/90;
 		var ac3 = faclr(LEvents[i][1]);
-		
+
 		if(ac1<0){
 		
 			if(at>0){
@@ -2076,7 +2002,9 @@ function bclr(clr){
 //determines the color of each box on the event chart
 
 function faclr(act){
-	
+//BUG 1: CAN'T WORK WITHOUT LOCAL ACTS and PUS
+
+	/*
 	var arrAct = LActs[0];
 		
 	var ans = $.inArray(act, arrAct);
@@ -2089,6 +2017,11 @@ function faclr(act){
 	
 	var clr = LPU[2][an2];
 	
+	*/
+
+	//TEMP!
+	let clr = "black";
+
 	return clr;
 
 }
@@ -2348,6 +2281,7 @@ function tbltest(){
 alert(ele.rows[2].cells[2].innerHTML);
 
 }
+
 </script>
 </body>
 </html>
