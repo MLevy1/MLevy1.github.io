@@ -663,10 +663,11 @@ var LProj = JSON.parse(localStorage.getItem("LSProj"));
 
 var LPU = JSON.parse(localStorage.getItem("LSPU"));
 
+//works
 alert(666);
 
 setTime();
-
+//doesn't work
 alert(670);
 
 if(LEvents===null){
@@ -1271,9 +1272,9 @@ function GPost(){
 
 
 function setTime(){
-	
+	alert("settime-1275");
 	var T = TimeArr();
-	
+	alert("settime-1277");
 	$( "#selP" ) . val("N");
 	
 	$( "#pm" ) . text("");
