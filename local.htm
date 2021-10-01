@@ -87,7 +87,7 @@ float: center;
 
 <body onoffline="bclr('SandyBrown')">
 
-<h1>New Local</h1>
+<h1>New Local-1</h1>
 
 <span id="testres"></span>
 
@@ -644,8 +644,6 @@ float: center;
 
 <script>
 //$("button").toggle();
-//works
-alert(651);
 
 var text, ELen, MLen, i, tmv, tmt, ft, etmv, etmt, eft, eid;
 
@@ -1160,11 +1158,11 @@ function resetLMoods(){
 }
 
 function TimeArr(){
-	
+	alert("Timea-1163");
 	var MTime = new Date();
-	
+	alert("Timea-1165");
 	MTime = MTime.getTime();
-	
+	alert("Timea-1167");
 	var vTZ = $( "#selTZ" ).val();
 	
 	var AM = parseInt(vTZ)*60*60*1000;
@@ -1186,7 +1184,7 @@ function TimeArr(){
 	var Mn = m.getMinutes();
 	
 	var Sec = m.getSeconds();
-	
+	alert("Timea-1189");
 	M = zerofix(M);
 	
 	Mn = zerofix(Mn);
@@ -1240,7 +1238,7 @@ function TimeArr(){
 	var NDTime= Y+'-'+M +'-'+ D +'T'+ H +':'+ Mn + ':' + Sec;
 	
 	var ShTime = M +'-'+ D +' '+ hr +':'+ Mn + ':' + Sec + ' ' + AP;
-	
+	alert("Timea-1243");
 	var arrTime = [NDTime, FT, ShTime];
 
 	return arrTime;
@@ -1272,8 +1270,11 @@ function GPost(){
 
 
 function setTime(){
+	//works
 	alert("settime-1275");
 	var T = TimeArr();
+	
+	//doesn't work
 	alert("settime-1277");
 	$( "#selP" ) . val("N");
 	
