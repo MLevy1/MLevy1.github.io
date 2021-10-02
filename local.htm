@@ -806,11 +806,18 @@ function displayLMoods(){
 	
 }
 
+
 function displayLEvents(){
 
 	resetSVG('echt');
 
 	var arrchart = [];
+
+	//set up array for act length details
+	var arrActLenDet = [];
+
+	//set up array for cont length details
+	var arrContLenDet = [];
 
 	LEvents.sort();
 	
@@ -836,8 +843,11 @@ function displayLEvents(){
 		
 		}
 		
+		//Event Length (EL) is in Milliseconds.  fmtime converts to readable time.
 		fmtime(EL);
 		
+		
+		//at and smn are used with the chart
 		if(i>0){
 		
 			var at = smn(LEvents[i-1][6]);
@@ -870,45 +880,55 @@ function displayLEvents(){
 
 		}
 	
-		//end edur calc
-		
+		//includes only events that happened after the min date
 		if(LEvents[i][6] > minDate){
 		
-		text += "<tr><td>" +
-		"<input type=button  value=+ class=slnk onclick='JQPost(`"+ LEvents[i][1] + "`,`" + LEvents[i][2] + "`,`" + LEvents[i][0] + "`,`" + i+"`)'/>" + 
-		
-		"</td><td>" 
-		
-		+ 
-		
-		"<input type=button value=- class=slnk onclick='delEvent("+i+")' />" 
-		
-		+ 
-		
-		"</td><td>" 
-		
-		+ 
-		
-		"<input type=button class=slnk value=U onclick='UpdateEvent(`"+ i + "`)' />"
-		
-		+
-		
-		"</td><td>" 
-		
-		+ 
-		
-		LEvents[i][5].substring(0,5) + 
-		"</td><td>" + 
-		LEvents[i][5].substring(6) + 
-		"</td><td>" + 
-		LEvents[i][3] +
-		"</td><td>" + 
-		LEvents[i][2] + 
-		"</td><td>" + 
-		LEvents[i][4] + 
-		"</td><td>" + 
-		EDur + 
-		"</td></tr>";
+			text += "<tr><td>" +
+			"<input type=button  value=+ class=slnk onclick='JQPost(`"+ LEvents[i][1] + "`,`" + LEvents[i][2] + "`,`" + LEvents[i][0] + "`,`" + i+"`)'/>" + 
+			
+			"</td><td>" 
+			
+			+ 
+			
+			"<input type=button value=- class=slnk onclick='delEvent("+i+")' />" 
+			
+			+ 
+			
+			"</td><td>" 
+			
+			+ 
+			
+			"<input type=button class=slnk value=U onclick='UpdateEvent(`"+ i + "`)' />"
+			
+			+
+			
+			"</td><td>" 
+			
+			+ 
+			
+			LEvents[i][5].substring(0,5) + 
+			"</td><td>" + 
+			LEvents[i][5].substring(6) + 
+			"</td><td>" + 
+			LEvents[i][3] +
+			"</td><td>" + 
+			LEvents[i][2] + 
+			"</td><td>" + 
+			LEvents[i][4] + 
+			"</td><td>" + 
+			EDur + 
+			"</td></tr>";
+
+			//for detail arrays
+			let actdet = LEvents[i][3];
+			let contdet = LEvents[i][2];
+
+			//add the event length and the act name to the act detail table
+			arrActLenDet.push([actdet, EL]);
+
+			
+			//add the event length and the sub proj name to the sub proj detail table
+			arrContLenDet.push([contdet, EL]);
 	
 		}
 	
@@ -1889,6 +1909,14 @@ function faclr(act){
 	var clr = LPU[2][an2];
 	*/
 	
+
+	/*
+
+	NEW COLOR THEORY
+
+	Move towards having the primary colors represent fundamental states (productivity, idelness, social connection, etc.) and having the activities represent the mix of those things.  Not sure exactly how to do this yet.
+
+	*/
         let clr = 'black';
 
         switch(act){
