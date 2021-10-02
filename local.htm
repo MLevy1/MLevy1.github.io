@@ -1889,26 +1889,24 @@ function faclr(act){
 	var clr = LPU[2][an2];
 	*/
 	
-        let clr = 'green';
+        let clr = 'black';
 
-        switch(act){	
-	
-            case 'P01':
-               alert(act);
-               break;
+        switch(act){
+
             default:
                clr = 'black';
                break;
 
+            case 'P33':
+               clr = 'aqua';
+               break;
+
+            case 'P60':
+               clr = 'aqua';
+               break;
          }
 
 /*
-Case 'P33':
-clr = 'aqua';
-break;
-Case 'P60':
-clr = 'aqua';
-break;
 Case 'L14':
 clr = 'orange';
 break;
