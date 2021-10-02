@@ -929,6 +929,10 @@ function displayLEvents(){
 			
 			//add the event length and the sub proj name to the sub proj detail table
 			arrContLenDet.push([contdet, EL]);
+
+
+
+			//sort the arrays, go through them and identify unique values, add the unique ids to summary tables, add the ELs to the time for each value, dipsplay 
 	
 		}
 	
@@ -938,7 +942,9 @@ function displayLEvents(){
 
 	document.getElementById("demo").innerHTML = text;
 	
-	svgtext('echt')
+	svgtext('echt');
+
+	displayList(arrActLenDet);
 	
 }
 
