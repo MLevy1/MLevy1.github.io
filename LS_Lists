@@ -1,0 +1,201 @@
+ebtnjql('N04', 'NA', 'Bed', "tblRoutine", "n", "n", "n");
+
+ebtnjql('B01', 'PERSONAL.2', 'BR', "tblRoutine", "n", "n", "n");
+
+ebtnjql('B07', 'PERSONAL.2', 'BR-2', "tblRoutine", "n", "n", "n");
+
+ebtnjql('P29', 'PERSONAL.2', 'Shower', "tblRoutine", "n", "n", (2*60*60*24));
+
+ebtnjql('P60', 'PERSONAL.2', 'Floss', "tblRoutine", "n", "n", (2*60*60*24));
+
+ebtnjql('P09', 'PERSONAL.2', 'Brush Teeth', "tblRoutine", "n", "n", (2*60*60*24));
+		
+ebtnjql('P33', 'PERSONAL.2', 'Shave & Hair', "tblRoutine", "n", "n", (3*60*60*24));
+
+ebtnjql('P20', 'PERSONAL.2', 'Dress', "tblRoutine", "n", "n", "n");
+
+ebtnjql('P32', 'PERSONAL.2', 'Pack', "tblRoutine", "n", "n", "n");
+
+ebtnjql('P16', 'Dog', 'Dog', "tblRoutine", "n", "n", "n");
+
+ebtnjql('P30', 'Dog', 'Walk (D)', "tblRoutine", "n", "n", (2*60*60*24));
+
+ebtnjql('P12', 'PERSONAL.2', 'Fingernails', "tblRoutine", "n", "n", (10*60*60*24));
+
+ebtnjql('P29', 'Dog', 'Shower (D)', "tblRoutine", "n", "n", (30*60*60*24));
+
+ebtnjql('C03', 'CHC.R', 'Feeding', "tblccare", "n", "n", "n");
+
+ebtnjql('C01', 'CHC.R', 'Diaper 1', "tblccare", "n", "n", "n");
+
+ebtnjql('C02', 'CHC.R', 'Diaper 2', "tblccare", "n", "n", "n");
+
+ebtnjql('C08', 'CHC.R', 'Reading', "tblccare", "n", "n", (4*60*60*24));
+	
+ebtnjql('C09', 'CHC.R', 'Play', "tblccare", "n", "n", "n");
+	
+ebtnjql('C04', 'CHC.R', 'Bath', "tblccare", "n", "n", "n");
+
+ebtnjql('S01', 'CW-Group', 'Social (CW)', "tblsocial", "n", "n", "n");
+
+ebtnjql('S13', 'CW-Group', 'Bar (CW)', "tblsocial", "n", "n", "n");
+
+ebtnjql('S01', 'DC', 'Social (DC)', "tblsocial", "n", "n", "n");
+		
+ebtnjql('S01', 'ME', 'Social (ME)', "tblsocial", "n", "n", "n");
+
+ebtnjql('A02', 'ADMIN', 'Inbox', "tblwork", "n", "n", "n");
+
+ebtnjql('W15', 'ISSUE.00', 'Issue Memo', "tblwork", "n", "n", "n");
+
+ebtnjql('W04', 'ISSUE.00', 'Issues Reporting', "tblwork", "n", "n", "n");
+
+ebtnjql('W10', 'ISSUE.00', 'Email: Issues', "tblwork", "n", "n", "n");
+
+ebtnjql('M01', 'ISSUE.00', 'Issues R&C Mtg', "tblwork", "n", "n", "n");
+
+ebtnjql('M02', 'ISSUE.00', 'Issues Bus Mtg', "tblwork", "n", "n", "n");
+
+ebtnjql('W10', 'RCSA.00', 'Email: RCSA', "tblwork", "n", "n", "n");
+
+ebtnjql('M01', 'RCSA.00', 'RCSA R&C Mtg', "tblwork", "n", "n", "n");
+
+ebtnjql('M02', 'RCSA.00', 'RCSA: Bus Mtg', "tblwork", "n", "n", "n");
+
+ebtnjql('W04', 'RCSA.R', 'RCSA Rep', "tblwork", "n", "n", "n");
+
+ebtnjql('M01', 'SHRP.01', 'MR Ctr R&C Mtg', "tblwork", "n", "n", "n");
+
+ebtnjql('W10', 'SHRP.01', 'MR Ctr Email', "tblwork", "n", "n", "n");
+
+ebtnjql('W04', 'SHRP.01', 'MR Ctr Rep', "tblwork", "n", "n", "n");
+
+ebtnjql('T04', 'TRAINING.2', 'WF Training', "tblwork", "n", "n", "n");
+
+ebtnjql('W04', 'REP.01', 'Qtrly Report', "tblwork", "n", "n", "n");
+
+ebtnjql('W04', 'REP.00', 'Reporting: General', "tblwork", "n", "n", "n");
+
+ebtnjql('M01', 'REP.00', 'Rep R&C Mtg', "tblwork", "n", "n", "n");
+
+ebtnjql('W10', 'RC.00', 'Reg Ctr Email', "tblwork", "n", "n", "n");
+
+ebtnjql('M01', 'RC.00', 'Reg Ctr R&C Mtg', "tblwork", "n", "n", "n");
+
+ebtnjql('M10', 'MEET.01', 'Team Mtg', "tblwork", "n", "n", "n");
+
+ebtnjql('W50', 'POL.00', 'Procedures: Policy', "tblwork", "n", "n", "n");
+
+ebtnjql('M01', 'POL.00', 'Policy R&C Mtg', "tblwork", "n", "n", "n");
+
+ebtnjql('A07', 'ADMIN', 'Tech Support', "tblwork", "n", "n", "n");
+
+ebtnjql('N02', 'AD', 'Drive (A)', "tblfam", "n", "n", "n");
+
+ebtnjql('S07', 'AD', 'Meal (A)', "tblfam", "n", "n", "n");
+
+ebtnjql('S01', 'Family.1', 'Social (Mom)', "tblfam", "n", "n", "n");
+
+ebtnjql('P30', 'AD', 'Walk (A)', "tblfam", "n", "n", "n");
+
+ebtnjql('P56', 'AD', 'Hiking (A)', "tblfam", "n", "n", "n");
+
+ebtnjql('S01', 'AD', 'Social (A)', "tblfam", "n", "n", "n");
+
+ebtnjql('S01', 'Family.3', 'Social (F)', "tblfam", "n", "n", "n");
+
+ebtnjql('S10', 'AD', 'Shopping (A)', "tblfam", "n", "n", "n");
+
+ebtnjql('N03', 'AD', 'TV (A)', "tblfam", "n", "n", "n");
+
+ebtnjql('S09', 'AD', 'Events (A)', "tblfam", "n", "n", "n");
+
+ebtnjql('N02', 'Family.6', 'Drive (A&D)', "tblfam", "n", "n", "n");
+
+ebtnjql('P30', 'Family.6', 'Walk (A&D)', "tblfam", "n", "n", "n");
+
+ebtnjql('P56', 'Family.6', 'Hiking (A&D)', "tblfam", "n", "n", "n");
+
+ebtnjql('N02', 'PERSONAL.5', 'Drive', "tbltrans", "n", "n", "n");
+
+ebtnjql('P40', 'PERSONAL.5', 'Gas', "tbltrans", "n", "n", "n");
+
+ebtnjql('N02', 'Dog', 'Drive (D)', "tbltrans", "n", "n", "n");
+
+ebtnjql('P42', 'PERSONAL.4', 'Run', "tblhealth", "n", "n", "n");
+
+ebtnjql('P31', 'PERSONAL.4', 'Gym', "tblhealth", "n", "n", (7*60*60*24));
+
+ebtnjql('P63', 'PERSONAL.4', 'Meditate', "tblhealth", "n", "n", (7*60*60*24));
+
+ebtnjql('P30', 'PERSONAL.4', 'Walk', "tblhealth", "n", "n", "n");
+
+ebtnjql('P15', 'PERSONAL.4', 'Doctor', "tblhealth", "n", "n", "n");
+
+ebtnjql('B02', 'PERSONAL.8', 'Eat', "tblfood", "n", "n", "n");
+
+ebtnjql('B06', 'BREAK', 'Beverage', "tblfood", "n", "n", "n");
+
+ebtnjql('P45', 'PERSONAL.8', 'Pick-up Food', "tblfood", "n", "n", "n");
+
+ebtnjql('P13', 'PERSONAL.8', 'Cook', "tblfood", "n", "n", "n");
+
+ebtnjql('B09', 'PERSONAL.8', 'Eat Slow', "tblfood", "n", "n", "n");
+		
+ebtnjql('B05', 'PERSONAL.8', 'Order Food', "tblfood", "n", "n", "n");
+
+ebtnjql('P18', 'PERSONAL.4', 'Food Tracking', "tblfood", "n", "n", "n");
+		
+ebtnjql('P35', 'PERSONAL.3', 'Dishes', "tblchores", "n", "n", (4*60*60*24));
+
+ebtnjql('P34', 'PERSONAL.3', 'Laundry', "tblchores", "n", "n", (14*60*60*24));
+
+ebtnjql('P41', 'PERSONAL.3', 'Trash', "tblchores", "n", "n", (5*60*60*24));
+
+ebtnjql('P59', 'PERSONAL.3', 'Vacuum', "tblchores", "n", "n", "n");
+
+ebtnjql('P36', 'PERSONAL.7', 'Groceries', "tblchores", "n", "n", "n");
+
+ebtnjql('P22', 'PERSONAL.3', 'Haircut', "tblchores", "n", "n", (30*60*60*24));
+
+ebtnjql('P64', 'PERSONAL.3', 'Mail', "tblchores", "n", "n", (21*60*60*24));
+
+ebtnjql('P61', 'PERSONAL.3', 'Sheets & Towels', "tblchores", "n", "n", (30*60*60*24));
+
+ebtnjql('P37', 'PERSONAL.3', 'Lawn', "tblchores", "n", "n", "n");
+
+ebtnjql('P58', 'PERSONAL.3', 'Clean Kitchen', "tblchores", "n", "n", "n");
+
+ebtnjql('P48', 'PERSONAL.3', 'Clean Car', "tblchores", "n", "n", "n");
+
+ebtnjql('P11', 'PERSONAL.3', 'Clean House', "tblchores", "n", "n", (30*60*60*24));
+
+ebtnjql('P39', 'PERSONAL.7', 'Shopping: Home', "tblchores", "n", "n", "n");
+
+ebtnjql('P47', 'PERSONAL.7', 'Shopping: Online', "tblchores", "n", "n", "n");
+
+ebtnjql('P43', 'PERSONAL.3', 'Home Repairs', "tblchores", "n", "n", "n");
+
+ebtnjql('L03', 'PERSONAL.3', 'Car Repairs', "tblchores", "n", "n", "n");
+
+ebtnjql('P05', 'PERSONAL.A', 'Personal Admin', "tblpersonal", "n", "n", "n");
+
+ebtnjql('P01', 'TIMEDB.0', 'Database', "tblpersonal", "n", "n", "n");
+
+ebtnjql('P04', 'PFIN.00', 'Finances', "tblpersonal", "n", "n", (14*60*60*24));
+
+ebtnjql('P26', 'PERSONAL.1', 'JO', "tblpersonal", "n", "n", "n");
+
+ebtnjql('N03', 'PERSONAL.1', 'TV', "tblpersonal", "n", "n", "n");
+
+ebtnjql('L16', 'READ.1', 'Research', "tblpersonal", "n", "n", "n");
+
+ebtnjql('L16', 'PERSONAL.4', 'Read: Health', "tblpersonal", "n", "n", "n");
+
+ebtnjql('L19', 'LEARNING.1', 'Crossword', "tblpersonal", "n", "n", "n");
+
+ebtnjql('L14', 'PROG.3', 'JavaScript', "tblpersonal", "n", "n", "n");
+
+ebtnjql('P24', 'PERSONAL.1', 'Internet', "tblpersonal", "n", "n", "n");
+		
+ebtnjql('L16', 'News', 'News', "tblpersonal", "n", "n", "n");
