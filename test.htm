@@ -1,6 +1,25 @@
+<!DOCTYPE html>
 <html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>testpage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>testpage</h1>
+  <div id="test"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
 <script>
+addEventListener('load', function(e) {
+  document.querySelector('#test').innerHTML = allStorage();
+
+});
+
 
 
 function allStorage() {
@@ -15,9 +34,4 @@ function allStorage() {
 
     return values;
 }
-
-alert(allStorage());
-
 </script>
-
-</html>
