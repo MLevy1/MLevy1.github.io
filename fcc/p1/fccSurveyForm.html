@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css"
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please complete this form to provide feedback on your experience.</p>
+    <form id='survey-form'>
+      <fieldset>
+        <label id="name-label" for="name">Enter Your Name: <input id="name" type="text" placeholder="Name" required/></label>
+        <label id="email-label" for="email">Enter Your Email: <input id="email" type="email" required placeholder="email@example.com"/> </label>
+        <label id="number-label" for="number">Enter your Age: <input id="number" type="number" min=13 max=120 placeholder="Age"/></label>
+        <label for="dropdown">User Type: 
+          <select id="dropdown">
+            <option>Business</option>
+            <option>Education</option>
+            <option>Personal</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <h4>Please rate each category below:</h4>
+        <h5>Appearance</h5>
+        <label><input class="inline" type="radio" name="rA" value="P">Poor</label>
+        <label><input class="inline" type="radio" name="rA" value="S">Satisfactory </label>
+        <label><input class="inline"type="radio" name="rA" value="G" >Great </label>
+<h5>Content</h5>
+        <label><input class="inline" type="radio" name="rC" value="P">Poor</label>
+        <label><input class="inline" type="radio" name="rC" value="S">Satisfactory </label>
+        <label><input class="inline"type="radio" name="rC" value="G" >Great </label>
+        <h5>Documentation & Support</h5>
+        <label><input class="inline" type="radio" name="rD" value="P">Poor</label>
+        <label><input class="inline" type="radio" name="rD" value="S" >Satisfactory </label>
+        <label><input class="inline"type="radio" name="rD" value="G">Great </label>
+      </fieldset>
+      <fieldset>
+        <h4>Which areas of our site do you use?</h4>
+        <label><input class="inline" type="checkbox" name="areas" value="forums"/>Forums</label>
+        <label><input class="inline" type="checkbox" name="areas" value="chat" />Chat</label>
+        <label><input class="inline" type="checkbox" name="areas" value="tutorials" />Tutorials</label>
+        <label><input class="inline" type="checkbox" name="areas" value="resources" />Resources</label>
+      </fieldset>
+      <fieldset>
+        <label>Please provide any additional comments or feedback here: <textarea></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit"/>
+    </form>
+  </body>
+</html>
