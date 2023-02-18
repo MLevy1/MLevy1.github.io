@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Time DB Technical Documentation</title>
+</head>
+<body>
+<main id="main-doc">
+  <nav id="navbar">
+    <header>Time DB Docs</header>
+    <ul>
+      <li><a class="nav-link" href="#basic_setup">Basic Setup</a></li>
+    <li><a class="nav-link" href="#entry_forms">Entry Forms</a></li>
+    <li><a class="nav-link" href="#modify_menus">Modify Menus</a></li>
+    <li><a class="nav-link" href="#jquery">JQuery</a></li>
+    <li><a class="nav-link" href="#local">Local</a></li>
+    </ul>
+  </nav>
+  <section class="main-section" id="basic_setup">
+    <header>Basic Setup</header>
+    <p>The Time DB application is designed to enable a user to schedule events and to track their real time usage.  The objective is to provide the user with the abitlity to analyze the differences between the two and develop strategies that better optimize time usage to align with thier goals.</p>
+    <p>In order to acheive this functionality, the application requires the following core features:
+    <ul>
+      <li>The ability for the user to create a set of activities that will be tracked and scheduled.</li>
+      <li>The ability for the user to schedule the activities in advance on given days and timeslots.</li>
+      <li>The ability for the user to track their actual time usage using the same set of pre-defined activities</li>
+      <li>Reporting that displays the scheduled events and actual events side-by-side for comparison</li>
+    </ul>
+  </section>
+  <section class="main-section" id="entry_forms">
+  <header>Entry Forms</header>
+  <p>Users use entry forms to create actvities, scheduled events and actual events.</p>
+      <ul>
+        <li>Activities: The building blocks that are used to create a schedule and to track actual time usage. The user only needs to enter the name of the activity and a php file <code>AddAct.php</code> is used to add the activity to the <code>tblAct</code> tabe in the underlying mySQL database.</li>
+        <li>Scheduled Events: Scheduled events are combinations of pre-defined activities and scheduled start times. This entry form requires the user to select an <code>activity</code> from a dropdown and to select a <code>schEventDateTime</code> from a date/time picker.</li>
+        <li>Actual Events: Entry of actual events is similar to scheduled events, but instead of using a date time picker, the database automatically records the start time based on when the user entered the event. A php script <code>AddEvent.php</code> is used to append the new event to the underlying MySQL database.</li>
+    </ul>
+  </section>
+  <section class="main-section" id="modify_menus">
+  <header>Modify Menus</header>
+  <p>Users require the ability to modify all aspects of the data stored in the application. The modify menus and forms facilatate this.</p>
+  <p>The modify menu is a basic html page <code>MenuModify.htm</code> which has links to each of the forms used to modify data. Scheduled and actual events can be modified by clicking on a button next to each event instance, so there are no modify forms for these.  There is a modify form for activities <code>FormAct.php</code>.</p>
+  </section>
+  <section class="main-section" id="jquery">
+  <header>JQuery</header>
+  <p>The application was initially built using only html and php, but the need to submit html forms each time an event was entered made the application slow and cumbersome. JQuery was used to improve the user experience.</p>
+  <p>JQuery versions of all  daily use forms were created, but some of the backend modification pages were never updated. The implementation of JQuery was also very sloppy and inconsistent across the application. Simple issues like page loading were never fully solved and the application was never transitioned to an object-oriented structure.</p>
+  </section>
+  <section class="main-section" id="local">
+  <header>Local</header>
+  <p>Historically, one of the biggest challenges of implementation was handling moments where a user lacked internet access. Since the original code was heavily reliant on php, the app would not even load at all without internet access or if the hosting service went down.</p>
+  <p>The solution to this problem was to create a local form that relied primarily on Javascript and not php.  Unfortunatley, the local form remained rudamentary and was never fully functional.</p>
+  <p>To make matters worse, many of the most useful features were not  replicated in the new form, but the new form was also much easier to use.  As a result, the overall user experience improved, but the usefulness declined dramatically.</p>
+  <p>Any future version will need to take this into account. The local form will need to have the same functionality as the server-connected form. The local form should also sync automatically with the server.</p>
+  </section>
+</main>
+</body>
+</html>
