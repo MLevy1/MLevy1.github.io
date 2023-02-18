@@ -1,0 +1,61 @@
+#image {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  background-color: #444444;
+  color: lightYellow;
+  font-family: Open Sans, sans-serif;
+}
+
+h1{
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  text-indent: 0;
+  padding: 0;
+}
+
+.yr {
+  font-weight: 700;
+  color: darkOrange;
+  font-size: 18px;
+}
+
+.info {
+  text-indent: 2em;
+  display: flex ;
+  align-content: space-between;
+  padding: 10px;
+  margin: 0;
+  color: LightSkyBlue;
+}
+
+h2{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+p{
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin: 0;
+  text-indent: 0;
+}
+
+a{
+  color: DodgerBlue;
+}
