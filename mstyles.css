@@ -6,25 +6,40 @@
  header {
 	 padding: 2rem;
 	 grid-column: 1 / 4;
+	 background-color: coral;
+	 opacity: 50%;
+	 border: dashed;
 }
 
 .left-side {
 
 	 grid-column: 1 / 2;
+	 background-color: green;
+	 opacity: 50%;
+	 border: dashed;
 }
 
 main {
 
 	 grid-column: 2 / 3;
+	 background-color: blue;
+	 opacity: 50%;
+	 border: dashed;
 }
 
 .right-side {
 
 	 grid-column: 3 / 4;
+	 background-color: green;
+	 opacity: 50%;
+	 border: dashed;
 }
 
 
 footer {
 
 	 grid-column: 1 / 4;
+	 background-color: coral;
+	 opacity: 50%;
+	 border: dashed;
 }
