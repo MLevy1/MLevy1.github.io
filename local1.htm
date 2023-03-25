@@ -2095,11 +2095,11 @@ displayActDurs();
             //local event buttons
             function localEventButton(act, cont, btnName, list, warn){
 				
-                let arrElapsedTime = findLast(act, cont);
+                //let arrElapsedTime = findLast(act, cont);
                 
-                let elapsedTime = arrElapsedTime[0];
+                //let elapsedTime = arrElapsedTime[0];
             
-                let warnTime = arrElapsedTime[1];
+                //let warnTime = arrElapsedTime[1];
                 
                 var bc = $( "button" ).length;
                 
@@ -2113,19 +2113,19 @@ displayActDurs();
                 
                 btn.setAttribute('data-cont', cont);
                 
-                btn.setAttribute('data-warn', warn);
+                //btn.setAttribute('data-warn', warn);
             
                 btn.classList.add("ebtn");
                 
                 let buttonNameTextNode = document.createTextNode(btnName);
                 
-                let elapsedTimeTextNode = document.createTextNode(elapsedTime);
+                //let elapsedTimeTextNode = document.createTextNode(elapsedTime);
                 
                 btn.appendChild(buttonNameTextNode);
             
-                btn.appendChild(document.createElement("br"));
+                //btn.appendChild(document.createElement("br"));
                 
-                btn.appendChild(elapsedTimeTextNode);
+                //btn.appendChild(elapsedTimeTextNode);
                 
                 let li = document.createElement("li");
             
@@ -2134,7 +2134,8 @@ displayActDurs();
                 let selectedList = document.getElementById(list);
             
                 selectedList.appendChild(li);
-                
+               
+                /*
                 if (warn!="n"){
             
                     if(warn < warnTime){
@@ -2143,7 +2144,8 @@ displayActDurs();
                     
                     }
                 }
-            
+                */
+
                 document.getElementById(btnid). addEventListener("click", function(){
                 
                     btnJQL(act, cont, btnName);
@@ -2166,19 +2168,19 @@ displayActDurs();
                     
                         let bcont = buttons[i].getAttribute('data-cont');
             
-                        let bwarn = buttons[i].getAttribute('data-warn');
+                        //let bwarn = buttons[i].getAttribute('data-warn');
             
-                        let arrelpTime = findLast(bact, bcont);
+                        //let arrelpTime = findLast(bact, bcont);
             
-                        let elpTime = arrelpTime[0];
+                        //let elpTime = arrelpTime[0];
                         
-                        let wTime = arrelpTime[1];
+                        //let wTime = arrelpTime[1];
                         
-                        let newnode = document.createTextNode(elpTime);
+                        //let newnode = document.createTextNode(elpTime);
                         
-                        buttons[i].replaceChild(newnode, buttons[i].childNodes[2]);
+                        //buttons[i].replaceChild(newnode, buttons[i].childNodes[2]);
                         
-                            
+                        /*  
                         if (bwarn!="n"){
             
                             if(bwarn < wTime){
@@ -2192,6 +2194,7 @@ displayActDurs();
                             }
                         
                         }
+                        */
             
                     }
             
@@ -2947,7 +2950,7 @@ if(LMoods === undefined || LMoods.length == 0) {
 			
 			//set local storage variables **need to add a way to skip this if offline**
 			//let lastuse = <?php echo json_encode( $arr_lastuse ) ?>;
-			
+
 			//Events
 
 			//let data_events = <?php echo json_encode( $arr_events ) ?>;
@@ -4432,6 +4435,7 @@ if(LMoods === undefined || LMoods.length == 0) {
 			}
 
 			//USED IN resetbtn(l#1419)
+            /*
 			function findLast(actid, contid){
 				
 				LEvents.sort();
@@ -4458,25 +4462,24 @@ if(LMoods === undefined || LMoods.length == 0) {
 					}
 				}
 				
-                if(lastuse){
 
-				    LUlen = lastuse[0].length;
-                
-                    for (j = 0; j < LUlen; j++) {
 
-                        if(lastuse[0][j]==actid){
+                LUlen = lastuse[0].length;
+            
+                for (j = 0; j < LUlen; j++) {
+
+                    if(lastuse[0][j]==actid){
+                    
+                        if(lastuse[1][j]==contid){
                         
-                            if(lastuse[1][j]==contid){
+                            var ESecs = Number(lastuse[2][j]);
+                                
+                            var STime = ELTime(ESecs);
                             
-                                var ESecs = Number(lastuse[2][j]);
-                                    
-                                var STime = ELTime(ESecs);
-                                
-                                let arrFL = [STime, ESecs];
+                            let arrFL = [STime, ESecs];
 
-                                return(arrFL);
-                                
-                            }
+                            return(arrFL);
+                            
                         }
                     }
                 }
@@ -4485,6 +4488,7 @@ if(LMoods === undefined || LMoods.length == 0) {
 
 				return(arrFL);
 			}
+            */
 
 			//USED IN FUNCTION:  findLast 
 			function ELTime(secs) {
