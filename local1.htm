@@ -4458,25 +4458,28 @@ if(LMoods === undefined || LMoods.length == 0) {
 					}
 				}
 				
-				LUlen = lastuse[0].length;
-				
-				for (j = 0; j < LUlen; j++) {
+                if(lastuse){
 
-					if(lastuse[0][j]==actid){
-					
-						if(lastuse[1][j]==contid){
-						
-							var ESecs = Number(lastuse[2][j]);
-								
-							var STime = ELTime(ESecs);
-							
-							let arrFL = [STime, ESecs];
+				    LUlen = lastuse[0].length;
+                
+                    for (j = 0; j < LUlen; j++) {
 
-							return(arrFL);
-							
-						}
-					}
-				}
+                        if(lastuse[0][j]==actid){
+                        
+                            if(lastuse[1][j]==contid){
+                            
+                                var ESecs = Number(lastuse[2][j]);
+                                    
+                                var STime = ELTime(ESecs);
+                                
+                                let arrFL = [STime, ESecs];
+
+                                return(arrFL);
+                                
+                            }
+                        }
+                    }
+                }
 				
 				let arrFL = ["N/A", 0];
 
