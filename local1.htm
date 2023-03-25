@@ -637,7 +637,7 @@
 
           if(postsIndicator==="Y"){
 
-              jqUpdateEvent(origTime, sqTime(datetimeValue), act, subproj);
+              //jqUpdateEvent(origTime, sqTime(datetimeValue), act, subproj);
 
           }
           
@@ -1251,7 +1251,7 @@ displayModifyActForm: function(act) {
     
         const formElement = document.createElement("form");
             formElement.method = "post";
-            formElement.action = "./update/updateAct.php";
+            //formElement.action = "./update/updateAct.php";
             formElement.target = "modifyFormResult";
             formElement.id = "updateForm";
             
@@ -1343,7 +1343,7 @@ displayNewActForm: function(){
     
         const formElement = document.createElement("form");
             formElement.method = "post";
-            formElement.action = "./add/addAct.php";
+            //formElement.action = "./add/addAct.php";
             formElement.target = "modifyFormResult";
             formElement.id = "actForm";
             
@@ -1481,7 +1481,7 @@ displayModifyProjForm: function(proj){
     
         const formElement = document.createElement("form");
             formElement.method = "post";
-            formElement.action = "./update/updateProj.php";
+            //formElement.action = "./update/updateProj.php";
             formElement.target = "modifyFormResult";
             formElement.id = "projForm";
             
@@ -1562,7 +1562,7 @@ displayNewProjForm: function(){
     
         const formElement = document.createElement("form");
             formElement.method = "post";
-            formElement.action = "./add/addProj.php";
+            //formElement.action = "./add/addProj.php";
             formElement.target = "modifyFormResult";
             formElement.id = "projForm";
             
@@ -1633,7 +1633,7 @@ displayModifySubProjForm: function(sp){
     
         const formElement = document.createElement("form");
             formElement.method = "post";
-            formElement.action = "./update/updateSubProj.php";
+            //formElement.action = "./update/updateSubProj.php";
             formElement.target = "modifyFormResult";
             formElement.id = "newSubProjForm";
             
@@ -1708,7 +1708,7 @@ displayNewSubProjForm: function(){
     
         const formElement = document.createElement("form");
             formElement.method = "post";
-            formElement.action = "./add/addSubProj.php";
+            //formElement.action = "./add/addSubProj.php";
             formElement.target = "modifyFormResult";
             formElement.id = "newSubProjForm";
             
@@ -1782,7 +1782,7 @@ displayModifyPUForm: function(pu){
     
         const formElement = document.createElement("form");
             formElement.method = "post";
-            formElement.action = "./update/updatePU.php";
+            //formElement.action = "./update/updatePU.php";
             formElement.target = "modifyFormResult";
             formElement.id = "modifyPUForm";
             
@@ -1862,7 +1862,7 @@ displayNewPUForm: function(){
     
         const formElement = document.createElement("form");
             formElement.method = "post";
-            formElement.action = "./add/addPU.php";
+            //formElement.action = "./add/addPU.php";
             formElement.target = "modifyFormResult";
             formElement.id = "addPUForm";
             
@@ -2235,7 +2235,7 @@ displayActDurs();
                     
                     if(selPost==="Y"){
                     
-                        jqUpdateEvent(origTime, sqTime(datetimeValue), act, cont);
+                        //jqUpdateEvent(origTime, sqTime(datetimeValue), act, cont);
                         
                     }
                     
@@ -2251,6 +2251,7 @@ displayActDurs();
                 
             }
             
+            /*
             function JQPost(act, cont, dtime){
             
                 $.post("./add/AddJQ.php",
@@ -2264,6 +2265,7 @@ displayActDurs();
                 
                 resetAll();
             }
+            */
         </script>
 		<script>
             //svg charts
@@ -2673,7 +2675,7 @@ resetAll();
 }
 
 
-
+/*
 function MPost(mood, dtime, i){
 
 $.post("./add/AddJQ.php",
@@ -2686,6 +2688,7 @@ $.post("./add/AddJQ.php",
 resetAll();
 
 }
+*/
 
 function delMood(i){
             
@@ -2699,7 +2702,7 @@ if (c == true){
 
     var a = LMoods.splice(i, 1);
     
-    JQDel(etime, 'tblMood', 'MoodDT');
+    //JQDel(etime, 'tblMood', 'MoodDT');
 
     resetAll();
 
@@ -3437,7 +3440,7 @@ if(LMoods === undefined || LMoods.length == 0) {
 					
 					alert( objLEvents[LEvents[i][0]] )
 				
-					JQDel(etime, 'tblEvents', 'StartTime');
+					//JQDel(etime, 'tblEvents', 'StartTime');
 					
 					resetAll();
 				
@@ -3538,6 +3541,7 @@ if(LMoods === undefined || LMoods.length == 0) {
 
 			}
 
+            /*
 			function jqUpdateEvent(oTime, nTime, act, cont){
 
 				const postData = $.ajax(
@@ -3554,6 +3558,7 @@ if(LMoods === undefined || LMoods.length == 0) {
 					clearForm()
 				});
 			}
+            */
 
 			function clearForm(){
 
@@ -3586,6 +3591,7 @@ if(LMoods === undefined || LMoods.length == 0) {
 
 
 			//USED IN FUNCTIONS: delEvent(l#1010) and delMood (l#1029)
+            /*
 			function JQDel(etime, tbl, index){
 
 			$.post("./del/DelJQ.php",
@@ -3595,7 +3601,7 @@ if(LMoods === undefined || LMoods.length == 0) {
 					selTbl: tbl
 				});
 			}
-
+            */
 			//USED IN resetbtn(l#1419)
             /*
 			function findLast(actid, contid){
