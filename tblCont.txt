@@ -1,0 +1,542 @@
+150141.0	150141	General	N
+150141.1	150141	Portfolio Management	N
+150141.2	150141	Trading	
+150143.0	150143	General	
+150143.1	150143	Physical Security	
+150143.2	150143	Record Retention	
+150143.3	150143	User Access	
+150143.4	150143	Trading	
+150143.5	150143	Operations	
+150143.6	150143	General Accounting	
+150143.7	150143	Fees	
+150143.8	150143	Compliance	
+150143.9	150143	Client Statements	
+150145.00	150145	General	
+150145.01	150145	Sales, Marketing, and New Accounts / Products	
+150145.02	150145	Investment Management	
+150145.03	150145	Back Office Functions	
+150145.04	150145	Risk Management / Portfolio Analytics	
+150145.05	150145	Physical and Information Security	
+150145.07	150145	BSA / AML / OFAC	
+150145.06	150145	Compliance	
+150182.0	150182	General	
+150182.1	150182	Issues Management Process	
+150182.2	150182	Data Integrity	
+150848.0	150848	General	
+160038.A	160038	Admin	
+160038.P	160038	Planning	
+160038.R	160038	FMG Reporting	
+160038.1	160038	FMG Money Mkt Reform	
+160038.2	160038	FMG Sales	
+160038.3	160038	FMG Move Money	
+160038.4	160038	FMG Pricing	
+160038.5	160038	FMG Manage Portfolio	
+160038.6	160038	FMG Confidential Info	
+160038.7	160038	Compliance	
+160038.8	160038	Third Parties	
+160038.9	160038	Board Reporting	
+160041.A	160041	Admin	
+160041.M	160041	Meetings	
+160041.1	160041	Meeting Notes	
+160041.2	160041	SharePoint	
+2012-RM-08.0.0	2012-RM-08	General	
+2013-AM-04.0.0	2013-AM-04	General	
+2013-AM-04.B.2	2013-AM-04	Performance Monitoring	
+2013-AM-04.B.3	2013-AM-04	Post-Trade Monitoring	
+2013-AM-04.D.1	2013-AM-04	System Access	
+2013-AM-04.E.1	2013-AM-04	BCP	
+2013-AM-05.0.0	2013-AM-05	General	
+2013-AM-05.B.1	2013-AM-05	Performance Monitoring	
+2013-AM-05.B.2	2013-AM-05	Post-Trade Monitoring	
+2013-AM-05.C.1	2013-AM-05	PM Trade Activity Monitoring	
+2013-AM-05.E.1	2013-AM-05	System Access	
+2013-AM-05.F.1	2013-AM-05	BCP	
+2013-AM-09.0.0	2013-AM-09	General	
+2013-AM-09.A.2	2013-AM-09	RAOOC Review	
+2013-AM-09.A.3	2013-AM-09	Board of Directors Oversight	
+2013-AM-09.B.1	2013-AM-09	Quarterly Financial Statement Review	
+2013-AM-09.B.2	2013-AM-09	Annual Independent Audit	
+2013-AM-09.B.3	2013-AM-09	Annual Independent Review of Performance & Non-Per	
+2013-AM-09.C.2	2013-AM-09	Code of Conduct	
+2013-AM-09.C.4	2013-AM-09	BCP Plan	
+2013-AM-09.D.3	2013-AM-09	Standard Operating Procedures	
+2013-AM-10.0.0	2013-AM-10	General	
+2013-AM-10.A.7	2013-AM-10	TIAA Board Participation	
+2013-AM-10.A.8	2013-AM-10	Annual Budget Review and Approval	
+2013-AM-10.B.7	2013-AM-10	Negative News Monitoring	
+2013-AM-10.C.1	2013-AM-10	Quarterly Financial Statements	
+2013-AM-10.C.2	2013-AM-10	Annual Independent Audit	
+2013-AM-10.C.3	2013-AM-10	Month-end Closing Checklists	
+2013-AM-12.0.0	2013-AM-12	General	
+2013-AM-12.A.1	2013-AM-12	Governance & Oversight	
+2013-AM-12.A.2	2013-AM-12	ALCO Review and Approval of Ranges	
+2013-AM-12.B.1	2013-AM-12	Monthly Tracking	
+2013-AM-12.C.1	2013-AM-12	Validation of Inputs	
+2013-AM-15.0.0	2013-AM-15	General	
+2013-AM-15.A.1	2013-AM-15	Deal Pipeline Meetings	
+2013-AM-15.A.2	2013-AM-15	TCAM UK IC & IMC	
+2013-AM-15.A.3	2013-AM-15	Standard Operating Procedures	
+2013-AM-15.A.4	2013-AM-15	Risk Management	
+2013-AM-15.B.1	2013-AM-15	Quarterly Financial Reporting	
+2013-AM-15.B.2	2013-AM-15	Monthly Management Reporting	
+2013-AM-15.B.3	2013-AM-15	VAT Tax	
+2013-AM-15.B.4	2013-AM-15	FCU Filings	
+2013-AM-15.C.1	2013-AM-15	BCP	
+2013-AM-15.C.2	2013-AM-15	Operational Issues	
+2013-RM-03.0.0	2013-RM-03	General	
+2013-RM-03.A.2	2013-RM-03	Risk Appetite Level Oversight	
+2013-RM-03.A.3	2013-RM-03	Risk Appetite Usage Oversight	
+2013-RM-03.B.1	2013-RM-03	Risk Appetite Level Management	
+2013-RM-03.B.2	2013-RM-03	Risk Appetite Usage Management	
+2013-RM-03.C.1	2013-RM-03	Collaboration - RM/Business Stakeholders	
+2013-RM-03.C.2	2013-RM-03	Collaboration - Finance & Actuarial	
+2013-RM-05.0.0	2013-RM-05	General	
+2013-SP-01.0.0	2013-SP-01	General	
+2013-SP-02.0.0	2013-SP-02	General	
+2014-AM-05.0.0	2014-AM-05	General	
+2014-AM-05.A.1	2014-AM-05	SOPs	
+2014-AM-05.A.2	2014-AM-05	SSAE 16s	
+2014-AM-05.A.3	2014-AM-05	4th Party Vendor Feeds	
+2014-AM-05.B.1	2014-AM-05	AMBD Reporting (CRM)	
+2014-AM-05.B.2	2014-AM-05	Sales Reporting (SalesVision)	
+2014-AM-05.C.1	2014-AM-05	Distribution Lists	
+2014-AM-05.C.2	2014-AM-05	CRM Maintenance	
+2014-AM-05.C.3	2014-AM-05	Email uploads	
+2014-AM-05.D.1	2014-AM-05	System Access	
+2014-AM-05.D.2	2014-AM-05	User List - HR Feed	
+2014-AM-05.D.3	2014-AM-05	Changes & Enhancements	
+2014-AM-05.E.1	2014-AM-05	BCP - TIAA Level	
+2014-AM-05.E.2	2014-AM-05	BCP - SalesForce / Broadridge Level	
+2014-AM-06.0.0	2014-AM-06	General	
+2014-AM-08.0	2014-AM-08	General	
+2014-AM-08.A	2014-AM-08	Audit Universe	
+2014-AM-08.B	2014-AM-08	Risk Assessment	N
+2014-AM-08.C	2014-AM-08	Risk and Control Items	
+2014-AM-14.0.0	2014-AM-14	General	
+2014-AM-14.A.1	2014-AM-14	Consolidation Worksheets	
+2014-AM-14.A.2	2014-AM-14	ELT & Shareholder Reporting	
+2014-AM-14.A.3	2014-AM-14	Financial Statements	
+2014-AM-14.A.4	2014-AM-14	Bank Account Reconcilations	
+2014-AM-14.A.5	2014-AM-14	Invoice Reviews	
+2014-AM-14.B.1	2014-AM-14	Capital Adequacy - Regulatory	
+2014-AM-14.B.2	2014-AM-14	Capital Adequacy - BD	
+2014-AM-14.C.1	2014-AM-14	Paris GL to CODA Recon	
+2014-AM-14.C.2	2014-AM-14	Milan GL to CODA Recon	
+2014-AM-14.C.3	2014-AM-14	Third Party Vendor Oversight	
+2014-AM-15.0.0	2014-AM-15	General	
+2014-AM-15.A.1	2014-AM-15	Committee Members	
+2014-AM-15.A.2	2014-AM-15	Thresholds	
+2014-AM-15.A.3	2014-AM-15	Discussion Material Submission	
+2014-AM-15.A.4	2014-AM-15	Meeting Minutes	
+2014-AM-15.B.1	2014-AM-15	Transaction Reviews	
+2014-AM-15.B.2	2014-AM-15	Strategy Reviews	
+2014-AM-15.B.3	2014-AM-15	Proposal Reviews	
+2014-AM-15.C.1	2014-AM-15	Investment Requirements Summaires	
+2014-AM-15.C.2	2014-AM-15	Board of Directors Approvals	
+2014-AM-15.C.3	2014-AM-15	Client Approval Process	
+2014-AM-15.D.1	2014-AM-15	TIAA-CREF General Account	
+2014-AM-15.D.2	2014-AM-15	KAG	
+2014-AM-18.0.0	2014-AM-18	General	
+2014-AM-18.A.1	2014-AM-18	Initial Credit Reviews	
+2014-AM-18.A.2	2014-AM-18	Monthly Trade List Review	
+2014-AM-18.A.3	2014-AM-18	Quarterly Early Warning List Review	
+2014-AM-18.B.1	2014-AM-18	Monthly Holdings Review	
+2014-AM-18.B.2	2014-AM-18	Annual Broker/Counterparty List Review	
+2014-AM-18.B.3	2014-AM-18	Quarterly FIOC	
+2014-AM-18.B.4	2014-AM-18	Annual Investment Committee Approval	
+2014-AM-18.C.1	2014-AM-18	Annual ALCO Approval	
+2014-AM-18.C.2	2014-AM-18	Monthly Tracking Error Report	
+2014-AM-18.C.3	2014-AM-18	Outliers	
+2014-AM-18.D.1	2014-AM-18	Bloomberg AIM Confirmations	
+2014-AM-18.D.2	2014-AM-18	Daily Trade Fails Tracking	
+2014-AM-18.D.3	2014-AM-18	Rebooked Trades	
+2014-AM-18.E.1	2014-AM-18	BCP	
+2014-AM-19.0.0	2014-AM-19	General	
+2014-FA-08.0.0	2014-FA-08	General	
+2014-FA-08.B.1	2014-FA-08	Confluence Funds Validation	
+2014-FA-08.B.2	2014-FA-08	Real Estate Account Workpapers	
+2014-FA-08.B.3	2014-FA-08	Non-Confluence Funds FS Prep	
+2014-FA-08.B.4	2014-FA-08	Draft FS Review	
+2014-FA-08.B.5	2014-FA-08	PEO/PFO Sign-off	
+2014-FA-08.C.1	2014-FA-08	Business Partner Reviews	
+2014-FA-08.C.2	2014-FA-08	SOPs	
+2014-FA-08.C.3	2014-FA-08	Run Book & Internal Calander	
+2014-FA-08.D.1	2014-FA-08	IT General Controls	
+2014-FA-08.D.2	2014-FA-08	System Access Reviews	
+2014-FA-11.0.0	2014-FA-11	General	
+2014-FA-11.A.3	2014-FA-11	Tax Returns	
+2014-FA-11.C.1	2014-FA-11	Tax Provisions	
+2014-FA-11.C.2	2014-FA-11	Excise Tax Calculations	
+2014-FA-11.C.3	2014-FA-11	RIC Diversification Test	
+2014-FA-11.C.4	2014-FA-11	REIT Adjustments	
+2014-FA-11.C.5	2014-FA-11	PFIC Analysis	
+2014-FA-11.C.6	2014-FA-11	Shareholder Reporting	
+2014-FA-11.E.2	2014-FA-11	End User Controls	
+2014-FA-12.0.0	2014-FA-12	General	
+2014-FA-12.A.1	2014-FA-12	Access Management: Internal Users	
+2014-FA-12.A.2	2014-FA-12	Access Management: External Users	
+2014-FA-12.B.1	2014-FA-12	User License Inactivation	
+2014-FA-12.B.2	2014-FA-12	Security Groups & Property Lists	
+2014-FA-12.B.3	2014-FA-12	External Property Manager Approvers List	
+2014-FA-12.C.1	2014-FA-12	Entitlement Reviews: Internal	
+2014-FA-12.C.2	2014-FA-12	Entitlement Reviews: External	
+2014-FA-12.D.1	2014-FA-12	Non-systematic Controls	
+2014-IT-18.0.0	2014-IT-18	General	
+2014-RM-04.0.0	2014-RM-04	General	
+2014-RM-04.B.2	2014-RM-04	Entitlement Reviews	
+2014-RM-04.C.4	2014-RM-04	Equity Pricing Memo Reviews	
+2014-RM-06.0.0	2014-RM-06	General	
+2014-SP-01.0.0	2014-SP-01	General	
+2015-AM-08.0.0	2015-AM-08	General	
+2015-AM-08.A.1	2015-AM-08	Policies & Procedures	
+2015-AM-08.A.2	2015-AM-08	Risk Assessments	
+2015-AM-08.B.1	2015-AM-08	Compulsory Training	
+2015-AM-08.B.2	2015-AM-08	Regulatory Awareness	
+2015-AM-08.B.3	2015-AM-08	Business Line Regulatory Risk Monitoring	
+2015-AM-08.B.4	2015-AM-08	ELT Reporting	
+2015-AM-08.C.1	2015-AM-08	Ongoing Compliance Monitoring	
+2015-AM-08.C.2	2015-AM-08	Standalone Montioring Engagements	
+2015-AM-08.C.3	2015-AM-08	Regulatory Breaches	
+2015-AM-08.D.1	2015-AM-08	Regulatory Reporting	
+2015-AM-09.0.0	2015-AM-09	General	
+2015-AM-09.A.1	2015-AM-09	Cash Payments	
+2015-AM-09.A.2	2015-AM-09	Transfers	
+2015-AM-09.B.1	2015-AM-09	Accounts Payable (Corporate)	
+2015-AM-09.B.2	2015-AM-09	Accounts Payable (Funds)	
+2015-AM-09.B.3	2015-AM-09	Accounts Receivable (Corporate)	
+2015-AM-09.C.2	2015-AM-09	Daily Balance Monitoring	
+2015-AM-09.C.3	2015-AM-09	Bank Recons	
+2015-AM-09.D.1	2015-AM-09	Managing Agents	
+2015-AM-09.E.1	2015-AM-09	System Access	
+2015-AM-09.E.2	2015-AM-09	Data Transmissions	
+2015-AM-12.0.0	2015-AM-12	Fund Finance	
+2015-TH-01.0	2015-TH-01	General	
+2015-TH-02.0	2015-TH-02	General	
+2015-TH-03.0.0	2015-TH-03	General	
+AD	FAMILY	Alyssa	
+ADMIN	ADMIN	Admin	
+BMP.A	BMP	General	N
+BMP.0	BMP	WFAM BMP	
+BMP.1	BMP	FMG BMP	N
+BMP.2	BMP	Galliard BMP	N
+BMP.3	BMP	Golden BMP	N
+BMP.4	BMP	WCM BMP	N
+BMP.6	BMP	FIA BMP	N
+BMP.7	BMP	ECM BMP	N
+BMP.5	BMP	Rock Creek BMP	
+CC.L	CC	Legal Entity Cvg. Coord.	N
+CC.O	CC	OON Cvg. Coord.	N
+BB	M.CW	Brian B.	N
+BM	M.CW	Brian	N
+CB	M.CW	Chris	N
+CW-Group	CWSocial	Co-workers	Y
+JC	M.CW	Joe	N
+JF	M.CW	Jarred	N
+JL	F.CW	Joyce	N
+JMo	F.CW	Julianne	N
+KA	M.CW	Kishwar	N
+LD	F.CW	Laurie	N
+LJ	F.CW	Lauren J	N
+MM	M.CW	Mani	N
+SJP	F.CW	Syndie	N
+DI	DI	Division Initiatives	
+Dog	DOG	Dog	
+AS	EXGFs	Auburn	N
+DT	EXGFs	Daya	N
+KW	F.Friends	Kristin	
+LM	EXGFs	Lauren	N
+AM	F.Friends	Amy	Y
+BK	F.Friends	Brentan	N
+CS	F.Friends	Caytie	
+JM	F.Friends	Jen	N
+JW	F.CW	Jasmine	N
+KS	F.Friends	Kira	N
+MH	F.Friends	Melinda	Y
+NK	F.Friends	Nina	N
+ME	F.Friends	Meghan	
+KP	F.CW	Kelley	N
+Family.1	FAMILY	Mom	
+Family.2	FAMILY	Dad	
+Family.3	FAMILY	Other Family	Y
+ENG	FLANG	English (Review)	N
+FRE	FLANG	French	N
+GER	FLANG	German	N
+ITA	FLANG	Italian	N
+Mpoints	FMI	Mpoints	
+Shopkick	FMI	Shopkick	
+FRIENDS.X	FRIENDS	General Social (Pre-Tracking)	
+IIA.1	IIA	Monthly Cash Recons	N
+IIA.2	IIA	Slot Purchase Cooridination	N
+IIA.3	IIA	Admin	N
+IIA.4	IIA	Treasurer	
+ISSUE	ISSUES	Issue Validation	N
+MAPS	ISSUES	MAP Validation	N
+MRA	ISSUES	MRA Validation	N
+LEARNING.1	LEARNING	Learning	Y
+LMOVE.1	LMOVE	General	
+LMOVE.2	LMOVE	Neighborhood Research	
+LMOVE.3	LMOVE	Apartment Listing Review	
+LMOVE.4	LMOVE	Cost of Living Related Research	
+BC	M.Friends	Brent	N
+DA	M.Friends	Dave A.	N
+DC	M.Friends	Dave	
+DL	M.Friends	Dan	N
+PS	M.Friends	Patrick	N
+RC	M.Friends	Ray	Y
+MP	M.Friends	Milo	Y
+TB	M.Friends	Tom	N
+MEET.1	MEET	Team Meeting	
+NA	NA	NA	
+PCD.1	PCD	Coaching	N
+PCD.2	PCD	Development Planning	N
+PCD.3	PCD	Performance Discussions	N
+PCD.4	PCD	Candidate Interview	N
+PCD.5	PCD	PCD - General	Y
+PCD.6	PCD	Self Evaluations	
+PERSONAL.1	PERSONAL	Non-Productive	
+PERSONAL.2	PERSONAL	Routine	
+PERSONAL.3	PERSONAL	Productive	
+PERSONAL.4	PERSONAL	Health	
+BREAK	PERSONAL	Break	
+PERSONAL.5	TRANS	Driving	
+PERSONAL.6	PERSONAL	Career	Y
+PERSONAL.7	PERSONAL	Shopping	
+PERSONAL.8	PERSONAL	Meals	
+PERSONAL.A	PERSONAL	Admin	
+PFIN.00	PFIN	Finances	
+PFIN.01	PFIN	Variable Cost Monitoring	N
+PFIN.02	PFIN	Fixed Cost Monitoring	N
+PFIN.03	PFIN	Budgeting	N
+PFIN.04	PFIN	Cost Driver Analysis	N
+PFIN.05	PFIN	Financial Planning / Forecasting	N
+PFIN.06	PFIN	Salary Projections / Analysis	N
+PFIN.07	PFIN	Bill Payments	N
+PFIN.08	PFIN	Investment Research	Y
+PROG.1	PROG	Python	Y
+PROG.2	PROG	Java	N
+PROG.3	PROG	HTML-CSS-JavaScript	Y
+PURCHASES	PURCHASES	Major Purchases	N
+TAX.1	TAX	Tax Return Prep	N
+TIAACO.0	TIAACO	General	
+TIMEDB.0	TIMEDB	Database	Y
+TIMEDB.1	TIMEDB	Underlying Tables	N
+TIMEDB.2	TIMEDB	Queries	N
+TIMEDB.3	TIMEDB	Forms	N
+TIMEDB.4	TIMEDB	Reports	N
+TRAINING.1	TRAINING	Audit Training	N
+TRAINING.2	TRAINING	WF Training	Y
+TRAINING.3	TRAINING	CIA Exam	N
+TRAINING.4	TRAINING	WFAS Onboarding	N
+TRAINING.5	TRAINING	CFE Exam	N
+TRANS.1	TRANS	Commute - Concord 	N
+News	NEWS	News	
+READ.1	READ	Research	
+CH	F.Friends	Chriselle	N
+PROG.4	PROG	AJAX	N
+PROG.5	PROG	JQuery	N
+160758.A	160758	PCG Admin	
+160758.P	160758	PCG Planning	
+160758.R	160758	PCG Reporting	
+160755.P	160755	IPCS Planning	
+160755.A	160755	IPCS Admin	
+AC	F.CW	April	N
+PERSONAL.9	TRANS	Air Travel	Y
+MD	M.Friends	Matt	N
+160758.1	160758	PCG Account Maintenance	
+160758.2	160758	PCG Advice & Oversight	
+160758.3	160758	PCG Communications	
+160758.4	160758	PCG Risk Mgmt	
+LMy	F.Friends	Laura	N
+JMe	M.CW	Jay	N
+LH	F.CW	Leigh	N
+ADf	F.Friends	Alyssa & Friends	Y
+VO	F.CW	Valeka	N
+MaH	F.CW	Marsha	N
+BG	F.CW	Bree	N
+REG	REG	Regulatory Reviews	N
+Training.6	CFA	CFA Exam Admin	Y
+CFA.0	CFA	CFA L2 - Level 1 Rev	N
+CFA.1	CFA	CFA L2 - Ethics	N
+CFA.2	CFA	CFA L2 - Quant Methods	N
+CFA.3	CFA	CFA L2 - Economics	N
+CFA.4	CFA	CFA L2 - Financial Rep	N
+CFA.5	CFA	CFA L2 - Corp Finance	N
+CFA.6	CFA	CFA L2 - Equity	N
+CFA.7	CFA	CFA L2 - Fixed Inc	N
+CFA.8	CFA	CFA L2 - Derivatives	N
+CFA.9	CFA	CFA L2 - Alternatives	N
+CFA.10	CFA	CFA L2 - Port Mgmt	N
+IC	CWSocial	IIA Contacts	N
+Family.4	FAMILY	My Parents	Y
+Family.5	FAMILY	Alyssa & My Parents	Y
+Family.6	FAMILY	Alyssa & Dogs	Y
+Family.7	FAMILY	Alyssa, My Parents & Dogs	N
+Family.8	FAMILY	My Parents & Dogs	N
+A-K	F.Friends	Alyssa & Kristin	Y
+A-M	F.Friends	Alyssa & Meghan	N
+A-D	M.Friends	Alyssa & Dave	N
+C-M	CWSocial	Caytie & Mani	N
+A-D-M-C	CWSocial	AD-DC-ME-CS	N
+CFA.T	CFA	CFA L2 - Practice Tests	N
+TRANS.2	TRANS	Commute - CIC	N
+TRANS.3	TRANS	Commute - Irregular	N
+160755.R	160755	IPCS Reporting	Y
+Jeremy H	CWSocial	JH	N
+JH	M.CW	Jeremy H	N
+ST	F.CW	Sandie	N
+160755.1	160755	IPCS Sales	Y
+160755.2	160755	IPCS Account Setup	Y
+160755.3	160755	IPCS Roles & Resp.	Y
+160755.4	160755	IPCS Policies	Y
+160755.5	160755	IPCS Move Money	Y
+160755.6	160755	IPCS Travel Exp	Y
+170754.A	170754	WFAM Sales Admin	Y
+170754.P	170754	WFAM Sales Planning	Y
+170754.R	170754	WFAM Sales Reporting	Y
+C-P	CWSocial	Caytie & Patrick	N
+Family.9	FAMILY	Alyssa, Other Family, Dogs	N
+BA	M.Friends	Ben	Y
+CFA.E	CFA	CFA - Exam	Y
+PHY.G	PHY	Physics (General)	Y
+170754.1	170754	WFAM Sales - Marketing	Y
+170754.2	170754	WFAM Sales - Sales Activities	Y
+170754.3	170754	WFAM Sales - New Accounts	Y
+170754.4	170754	WFAM Sales - Call Centers	Y
+170746.1	170746	FMG Compliance	Y
+170746.2	170746	WCM Compliance	Y
+170746.3	170746	Galliard Compliance	Y
+170746.4	170746	Golden Compliance	Y
+170746.5	170746	Rock Creek Compliance	Y
+170862.03.A	170862.03	Reg O RR Admin	Y
+170862.03.P	170862.03	Reg O RR Planning	Y
+JP	M.CW	Jeremy P	N
+CFA.11	CFA	CFA L3 - Ethics	Y
+CFA.12	CFA	CFA L3 - Wealth Mgmt	Y
+CFA.13	CFA	CFA L3 - Capital Mkts	Y
+CFA.14	CFA	CFA L3 - Asset Allocation	Y
+CFA.15	CFA	CFA L3 - Equity	Y
+CFA.16	CFA	CFA L3 - Fixed Inc	Y
+CFA.17	CFA	CFA L3 - Alts	Y
+CFA.18	CFA	CFA L3 - Risk Mgmt	Y
+CFA.19	CFA	CFA L3 - Derivatives	Y
+CFA.20	CFA	CFA L3 - Port Mgmt	Y
+CFA.21	CFA	CFA L3 - Behavioral Fin	Y
+CFA.22	CFA	CFA L3 - All	Y
+170745.P	170745	Galliard - Planning	Y
+DM	M.CW	Devon	N
+JD	M.CW	Johan	Y
+NEWS.S	NEWS	Sports	N
+MB	F.CW	Maureen	N
+NB	M.CW	Neil	N
+SM	M.CW	Sandy	N
+AC-ME	F.CW	April & Meghan	N
+HC	M.CW	Hassan	N
+D-M	CWSocial	Dave & Meghan	N
+NW	F.CW	Nicki	N
+NEWS.I	NEWS	Investment News	Y
+170745.01	170745	Galliard - Marketing	Y
+170745.02	170745	Galliard - Sales	Y
+170745.03	170745	Galliard - New Accounts	Y
+170745.04	170745	Galliard - Service Customers	Y
+170745.05	170745	Galliard - Physical Security	Y
+170745.06	170745	Galliard - User Access	Y
+170745.07	170745	Galliard - Trading	Y
+170745.08	170745	Galliard - Portfolio Mgmt	Y
+170745.09	170745	Galliard - Recons	Y
+170745.10	170745	Galliard - Oversight	Y
+NORM.TV1	NORM	Game of Thrones	N
+NORM.S	NORM	Sports	N
+170745.A	170745	Galliard - Admin	Y
+170744.P	170744	WCM - Planning	Y
+170744.A	170744	WCM - Admin	Y
+PROG.6	PROG	PHP	N
+PROG.7	PROG	JSON	N
+170744.01	170744	WCM - Trading	Y
+170744.02	170744	WCM - Port. Mgmt.	Y
+170744.03	170744	WCM - Client Service	Y
+170744.04	170744	WCM - Conf Info	Y
+TRAINING.7	TRAINING	CPE Training	Y
+170075.0	170075	RI Audit - General	Y
+POL.00	POL	Policy Mgmt - General	Y
+SHRP.00	SHRP	SHRP-RCSA - General	Y
+ISSUE.00	ISSUES	Issues - General	Y
+BPRM.00	BPRM	BPM - General	Y
+RITV.00	RITV	RITV - General	N
+DLP.00	DLP	DLP - General	N
+AB	F.CW	Alex	N
+AUD.00	AUD	Audits - General	Y
+NP.00	NP	General - New Prod	N
+C-ME	F.Friends	Caytie & Meghan	N
+DLP.01	DLP	Elevated Internet Access	Y
+DLP.02	DLP	Email Filtering	N
+MTA.00	MTA	General - MTA	N
+REP.00	REP	General - Reporting	Y
+REP.01	REP	IP Qtrly Rep	Y
+READ.02	READ	Quora	N
+BPRM.01	BPRM	Process Map Updates	N
+FCRM.01	FCRM	FCRM - General	Y
+FCRM.02	FCRM	Customer Stats	N
+180161.0	180161	IP SP - General	Y
+MOVe			Y
+MOVE.W	WMOVE	Waxhaw Move 	N
+TRANS.4	TRANS	Commute - Waxhaw	N
+180305.0	180305	MIP Audit - General	Y
+AUD.01	AUD	Reinsurance AML Audit	N
+AUD.02	AUD	Structured Products Audit	N
+AUD.03	AUD	MIP Audit	N
+CV	F.Friends	Christine	N
+TR	M.Friends	Tyler	Y
+TBe	F.CW	Taran	N
+CFA.23	CFA	CFA L3 - Practice Tests	Y
+SLA.0	SLA	SLA General	N
+SP.0	SP	Sales Practices - General	N
+NEWS.A	NEWS	Astronomy	N
+AUD.04	AUD	Iowa Exam	N
+REP.02	REP	Monthly Forum	N
+SA.0	SA	Self Assurance - General	N
+A-R	M.Friends	Alyssa & Ray	N
+A-M-R-T-N	CWSocial	Alyssa Melinda Ray Tom Nina	N
+A-MH	F.Friends	Alyssa & Melinda	N
+AUD.05	AUD	IRR ERMA	N
+AUD.06	AUD	Trading Audit	N
+REP.03	REP	Partner Slide	N
+NORM.F	NORM	Fashion	Y
+RCSA.00	RCSA	RCSA - General	Y
+RCSA.A	RCSA	RCSA Assessment	Y
+RCSA.R	RCSA	RCSA Reporting	Y
+RCSA.I	RCSA	Intl RCSA	N
+BPRM.R	BPRM	BPRM Reporting	N
+ISSUE.R	ISSUES	Issue Reporting	Y
+SHRP.01	SHRP	MR Controls	Y
+SHPR.R	SHRP	SHRP Reporting	N
+ADb	M.CW	Abe	Y
+PURC.01	PURCHASES	2018 Car	Y
+NORM.C	NORM	Cocktails	N
+NORM.FO	NORM	Food	N
+NORM.T	NORM	Travel	N
+NORM.CA	NORM	Cars	N
+REP.04	REP	Risk Committee	Y
+PROG.8	PROG	Algorithms	N
+NP.01	NP	REEF API	N
+REP.05	REP	Weekly Report	N
+BSDI.0	BSDI	BSDI General	Y
+RID.0	RID	Risk ID General	N
+OB.0	OB	Onboarding - General	N
+N1	M.Friends	Neighbors	Y
+TRANS.5	TRANS	Commute - Waxhaw (O)	N
+AUD.07	AUD	Municipals Audit	N
+VOL.G	VOL	Volcker General	N
+TG.0	TG	Trade Governance - General	N
+NP.02	NP	Single Security	N
+NP.03	NP	Reinsurance Retirements	N
+NP.04	NP	E-Trading	N
+PROG.9	PROG	Visual Basic	Y
+CHC.R	CHC	Childcare	Y
+WRT.S	WRT	Short Stories	N
+SPA	FLANG	Spanish	N
+SHRP.02	SHRP	Hierarchy Changes	Y
+CRMP.0	CRMP	CRMP - General	N
+TR.00	TR	Tech Risk (General)	N
+TR.01	TR	Ada	Y
+RC.00	RC	Reg Control - General	Y
+IRR.00	IRR	Intl. Reg. Rep. General	N

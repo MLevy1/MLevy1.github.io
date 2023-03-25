@@ -2955,14 +2955,17 @@ if(LMoods === undefined || LMoods.length == 0) {
 			//localStorage.setItem("LSEvents", JSON.stringify(data_events));
 			
 			let LEvents = JSON.parse(localStorage.getItem("LSEvents"));
-			
+
 			const objLEvents = {}
 			
-			for(i=0; i<LEvents.length; i++) {
-				
-				objLEvents[LEvents[i][0]] = {"startTime": Date.parse(LEvents[i][0]), "act": LEvents[i][1], "subProj": LEvents[i][2]}
-			
-			}
+            if (LEvents){
+
+                for(i=0; i<LEvents.length; i++) {
+                    
+                    objLEvents[LEvents[i][0]] = {"startTime": Date.parse(LEvents[i][0]), "act": LEvents[i][1], "subProj": LEvents[i][2]}
+                
+                }
+            }
 			
 			//Moods
 			

@@ -1,0 +1,16 @@
+A	Admin	Silver
+B	Break	red
+D	Development	YellowGreen
+I	IIA	pink
+M	Meeting	lime
+S	Social	yellow
+P	Personal	purple
+W	Work	green
+N	Untracked	black
+L	Learning	gold
+T	Training	orange
+1	Productive	Peru
+2	Travel	DimGray
+R	Routine	Cyan
+H	Health	Blue
+3	Meal	Fuchsia

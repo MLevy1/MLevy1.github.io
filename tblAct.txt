@@ -1,0 +1,199 @@
+A01	AMP	A	W	Inactive
+A02	Inbox	A	W	Active
+A03	Expenses	A	W	Inactive
+A04	Desktop Review	A	W	Active
+A05	Training Admin	A	TLA	Active
+A06	CPA License	A	W	Inactive
+A07	Tech Support	A	W	Active
+A08	Time Mgmt	A	W	Active
+A09	Timesheet	A	W	Inactive
+A10	Travel Booking	A	W	Inactive
+B01	Bathroom	R	P	Active
+B02	Eat	3	P	Active
+B04	Lunch	3	P	Inactive
+B05	Order Food	P	P	Active
+B06	Beverage	B	P	Active
+D01	Monthly Review	D	D	Active
+D02	Weekly Review	D	D	Inactive
+D03	Dev Plan	D	D	Active
+D04	One-on-One	D	DS	Active
+D05	One-on-One Prep	D	D	Inactive
+D06	Coaching (D)	D	D	Inactive
+I01	IIA Meetings & Emails	I	I	Inactive
+I02	IIA Recons	I	I	Inactive
+I03	Board Materials	I	I	Inactive
+I04	Slot Reporting	I	I	Inactive
+I05	Post Office	I	I	Inactive
+I06	Invoicing	I	I	Inactive
+L01	Assimil	L	L	Inactive
+L02	Brain Training	L	L	Inactive
+L03	Car Repairs	1	PL	Active
+L04	Coffee Break Languages	L	L	Inactive
+L05	DuoLingo	L	L	Inactive
+L06	Grammar	L	L	Inactive
+L07	Math	L	L	Inactive
+I09	Payments	I	I	Inactive
+L09	Rosetta Stone	L	L	Inactive
+L10	VB Training	L	L	Inactive
+L12	Python	L	L	Inactive
+L13	Java	L	L	Inactive
+L14	Web Dev	L	L	Active
+M01	Risk or Control Mtg	M	WD	Active
+M02	Business Mtg	M	W	Active
+M03	Committee Meeting	M	W	Inactive
+M04	Corporate Meeting 	M	W	Inactive
+M05	Interviewing	M	WD	Inactive
+M06	Meeting Prep	M	WD	Inactive
+M07	Phone: Work	M	W	Inactive
+M08	Planning Mtg	M	W	Inactive
+M09	Schedule Mtgs	A	WD	Active
+M10	Team Mtg	M	W	Active
+M11	Volunteering	M	W	Inactive
+N01	Untracked Time	N	N	Active
+N02	Drive	2	PS	Active
+N03	TV	P	LPS	Active
+P01	Database	P	P	
+P02	Job Search	D	DPW	Inactive
+P04	Finances	P	P	Active
+P05	Personal: Admin	P	P	Active
+P06	Retirement	P	P	Inactive
+P07	Taxes	1	P	Inactive
+P08	Taxes (S)	P	S	Inactive
+P09	Brush Teeth	R	P	Active
+P10	Car Search	P	P	Inactive
+P11	Clean House	1	P	Active
+P12	Fingernails	R	P	Active
+P13	Cook	P	P	Active
+P14	Dinner	3	P	Inactive
+P15	Doctor/Dentist	P	P	
+P16	Dog	P	PS	Active
+P17	Fantasy Football	P	P	Inactive
+P18	Food Tracking	P	P	Inactive
+P19	Shopping: Furniture	P	P	Inactive
+P20	Dress	R	P	Active
+P21	Shopping: Gifts	P	P	Inactive
+P22	Haircut	1	P	Active
+P23	Home/Apt Search	1	P	Inactive
+P24	Internet	P	P	
+P25	Investments	P	P	Active
+P26	JO	P	P	Active
+P29	Shower	R	P	Active
+P30	Walk	H	PS	Active
+P31	Gym	H	P	Active
+P32	Pack	R	P	Active
+P33	Shave & Hair	R	P	Active
+P34	Laundry	1	P	Active
+P35	Dishes	1	P	Active
+P36	Groceries	P	PS	Active
+P37	Lawn & Garden	1	P	Active
+W47	Quality Assurance	W	W	Active
+P39	Shopping: Home	P	PS	Active
+P40	Gas	2	P	Active
+P41	Trash	1	P	Active
+S01	Social	S	S	
+S02	Sex	S	S	Active
+S03	Lunch (S)	S	S	Inactive
+S04	Coffee (S)	S	S	
+S05	Breakfast (S)	S	S	Inactive
+S06	Research (S)	S	S	Inactive
+S07	Meal (S)	S	S	Active
+S08	Travel Planning (S)	S	S	Inactive
+S09	Events	S	S	
+S10	Shopping (S)	S	S	Active
+T02	Exam	L	L	Inactive
+T03	Study	L	L	Inactive
+T04	Training	T	T	
+W00	Admin (W)	W	W	Inactive
+W01	Agenda	W	W	Active
+W02	Annual Plan	W	W	Inactive
+W04	Reporting	W	W	Active
+W06	CE Testing	W	W	Inactive
+W07	Closing	W	W	Inactive
+W08	Coaching	W	W	Inactive
+W09	DE Docs	W	W	Inactive
+W10	Email	W	WD	Active
+W11	Engagement Memo	W	W	Inactive
+W12	Research: External	A	W	Inactive
+W15	Issue Memo	W	W	Active
+W17	Research	W	WD	Active
+W19	Issue Validation	W	W	Inactive
+W20	Meeting Notes	W	WD	Inactive
+W21	Planning Memo	W	W	Inactive
+W22	Planning: General	W	W	Inactive
+W25	Project Economics	W	W	Inactive
+W27	Business Profile Review	W	W	Active
+W29	Process Risk Control	W	W	Active
+W30	Doc Request	W	W	Active
+W32	Review Notes	W	W	Inactive
+W33	Risk Assessment	W	W	Active
+W35	Sampling	W	W	Inactive
+P49	Air Travel	2	PS	Active
+W38	Status Report	W	W	Active
+W39	Process Flow	W	W	Inactive
+W40	Workpaper Review	W	W	Inactive
+W42	Checklists	A	W	Inactive
+W43	Audit Form	W	W	Inactive
+W44	Staff IPAs	W	W	Inactive
+W46	Issue Report Meeting	M	W	Inactive
+P42	Run	H	P	Active
+P43	Home Repairs	1	P	Active
+S11	Pool	S	S	Active
+S12	Beach	S	S	Active
+L15	News	L	L	Inactive
+S13	Bar	S	S	
+D07	Daily Review	D	D	
+P44	Dry Cleaning	1	P	Inactive
+P45	Pick-up Food	P	P	Active
+I07	Financial Statements	I	I	Inactive
+I08	Journal Entries	I	I	Inactive
+P46	Wedding Planning	1	P	Inactive
+P47	Shopping: Online	P	P	
+P48	Clean Car	1	P	Active
+N04	Sleep	N	N	Active
+P50	Public Trans.	2	PS	Active
+W48	Reg Analysis	W	W	Inactive
+P51	Airport	2	PS	Active
+M12	Regulator Mtg	M	W	Inactive
+P52	Commute (pre-split)	2	W	Inactive
+L16	Read	L	TLP	Active
+D08	Job Interview Prep	D	DP	Inactive
+D09	Job Interview	D	DP	Inactive
+P53	Cryptocurrency	P	P	Active
+P54	Fishing / Kayaking	H	PS	Inactive
+L17	Lectures	L	TL	Inactive
+P55	Convo DB	P	P	Inactive
+L18	Flashcards	L	TL	Inactive
+W49	Announcement Letter	W	W	Inactive
+P56	Hiking	H	PS	Active
+P57	Biking	H	PS	Inactive
+P61	Sheets & Towels	1	P	Active
+W50	Procedures	W	W	Active
+P58	Clean Kitchen	1	P	Active
+P59	Vacuum	1	P	Active
+P65	Negativity	P	P	Active
+W51	Presentation	W	W	Inactive
+P60	Floss	R	P	Active
+S14	Games	S	S	Inactive
+P63	Meditate	H	P	Active
+P62	Decorate	1	P	Inactive
+P64	Mail	1	P	Active
+W52	Property Search	W	W	Inactive
+D10	Onboarding	D	DW	Active
+B07	Bathroom 2	R	P	Active
+L19	Crossword 	L	L	Active
+L20	Writing	L	L	Inactive
+C01	Diaper 1	1	P	Active
+C02	Diaper 2	1	P	Active
+W54	Policy Review	W	W	Active
+C03	Feeding	1	P	Active
+C04	Baby Bath	1	P	Active
+W53	Leave Prep	W	W	Inactive
+C05	Pediatrician	1	P	Inactive
+P66	Home Organization	1	P	Inactive
+C06	Crying	1	P	Inactive
+C07	Tummy Time	1	P	Inactive
+C08	Reading	1	P	Active
+C09	Play	1	P	Active
+B08	Bathroom 1-S	R	P	Inactive
+B09	Eat (Slow)	3	P	Active
+P67	Yoga	H	P	Active

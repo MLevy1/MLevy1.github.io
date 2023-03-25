@@ -1,0 +1,117 @@
+150141	Wells Cap 2015	Closed	W
+150143	GCM	Closed	W
+150145	Rock Creek	Closed	W
+150182	Basel DI	Closed	W
+150848	RCIS Retro	Closed	W
+160038	FMG	Closed	W
+160041	WFAM-WIM Int.	Closed	W
+2012-RM-08	Enterprise Risk Mgmt	Closed	W
+2013-AM-04	Lifecycle/Lifestyle	Closed	W
+2013-AM-05	Quantitative Portfolio Mgmt	Closed	W
+2013-AM-09	Polar Star	Closed	W
+2013-AM-10	Radar	Closed	W
+2013-AM-12	Asset Allocation	Closed	W
+2013-AM-15	AM European Offices	Closed	W
+2013-RM-03	Risk Appetite	Closed	W
+2013-RM-05	Model Governance	Closed	W
+2013-SP-01	IPFS Flowcharting Project	Closed	W
+2013-SP-02	Real Estate Authorizations	Closed	W
+2014-AM-05	AM Sales Support	Closed	W
+2014-AM-06	Performance Reporting	Closed	W
+2014-AM-08	Henderson Advisory (UK)	Closed	W
+2014-AM-14	THRE Group Finance	Closed	W
+2014-AM-15	THRE Investment Committee	Closed	W
+2014-AM-18	Structured Products	Closed	W
+2014-AM-19	Westchester	Closed	W
+2014-FA-08	FS Close Process	Closed	W
+2014-FA-11	MF Taxes, Actions and Dist.	Closed	W
+2014-FA-12	Yardi	Closed	W
+2014-IT-18	THRE ITGC	Closed	W
+2014-RM-04	Securities Pricing & Valuation	Closed	W
+2014-RM-06	Enterprise Risk Management	Closed	W
+2014-SP-01	Model Risk Special Project	Closed	W
+2015-AM-08	THRE Compliance	Closed	W
+2015-AM-09	THRE Operations	Closed	W
+2015-AM-12	THRE Fund Finance	Closed	W
+2015-TH-01	THRE - General	Closed	W
+2015-TH-02	Locational Strategy	Closed	W
+2015-TH-03	THRE Legal	Closed	W
+AD	Alyssa	Closed	S
+ADMIN	ADMIN	Open	W
+AS	Auburn Situation	Closed	S
+BMP	BMP	Closed	W
+CC	Coverage Coord.	Closed	W
+CWSocial	Coworkers	N/A	S
+DI	Division Initiatives	Closed	W
+DOG	Dog	N/A	P
+EXGFs	Ex-GFs	Closed	S
+F.Friends	Friends (F)	N/A	S
+FAMILY	Family	N/A	S
+FLANG	Foreign Language Skills	Closed	L
+FMI	Free Money Initiatives	Closed	P
+FRIENDS	Social - Friends (Pre-Tracking	Closed	S
+IIA	IIA	Closed	I
+ISSUES	Issues	Open	W
+LEARNING	Learning	N/A	L
+LMOVE	London Move	Closed	P
+M.Friends	Friends (M)	N/A	S
+MEET	Other Meetings	Open	W
+NA	Unassigned	N/A	N
+PCD	PCD	N/A	D
+PERSONAL	Personal	N/A	P
+PFIN	Personal Finances	N/A	P
+PROG	Programming	Open	L
+PTO	PTO	Closed	N
+PURCHASES	Major Purchases	Closed	P
+TAX	Taxes (Personal)	N/A	P
+TIAACO	TIAA Carryover	Closed	W
+TIMEDB	Time DB Design	N/A	P
+TRAINING	Training	N/A	T
+NEWS	News	N/A	L
+READ	Reading & Research	N/A	L
+160758	PCG Supervision	Closed	W
+160755	IPCS	Closed	W
+I.Friends	Inactive Friends	Closed	S
+REG	Regulatory Reviews	Closed	W
+CFA	CFA Exam	Closed	L
+TRANS	Transport	Open	P
+170754	WFAM Sales	Closed	W
+PHY	Physics	Closed	L
+170746	WFAM Compliance	Closed	W
+170862.03	Reg O Retrospective	Closed	W
+170745	Galliard	Closed	W
+M.CW	Coworkers (M)	Open	S
+F.CW	Coworkers (F)	Open	S
+NORM	Normalization	Open	P
+170744	Wells Cap	Closed	W
+BPRM	BPM	Open	W
+SHRP	SHRP	Open	W
+POL	Policy	Open	W
+170075	Reinsurance	Closed	W
+RITV	Reinsurance T&V	Closed	W
+MTA	MTA	Closed	W
+DLP	DLP	Closed	W
+AUD	Audits	Open	W
+NP	Products	Closed	W
+REP	Reporting	Open	W
+FCRM	Financial Crimes	Closed	W
+180161	Structured Products	Closed	W
+WMOVE	Moving	Closed	P
+180305	2018 MIP Audit	Closed	W
+SLA	SLA Management	Closed	W
+SP	Sales Practices	Closed	W
+SA	Self Assurance	Closed	W
+RCSA	RCSA	Open	W
+BSDI	BSDI	Open	W
+RID	Risk (ID-Meas-App)	Open	W
+OB	Onboarding	Open	D
+VOL	Volcker	Closed	W
+TG	Trade Governance	Closed	W
+CHC	Childcare	Open	P
+WRT	Writing	Closed	L
+TR	Tech Risk	Open	W
+CR	Conduct Risk	Closed	W
+CRMP	CRMPS	Closed	W
+RC	Regulatory Control	Open	W
+RT	Required Training	Closed	W
+IRR	Intl. Reg. Reporting	Closed	W
