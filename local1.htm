@@ -2959,6 +2959,10 @@ if(LMoods === undefined || LMoods.length == 0) {
 			
 			let LEvents = JSON.parse(localStorage.getItem("LSEvents"));
 
+            if(LEvents){}else{
+                let LEvents=[]
+            }
+
 			const objLEvents = {}
 			
             if (LEvents){
@@ -2977,6 +2981,12 @@ if(LMoods === undefined || LMoods.length == 0) {
 			//localStorage.setItem("LSMoods", JSON.stringify(data_moods));
 
 			let LMoods = JSON.parse(localStorage.getItem("LSMoods"));
+
+            if(LMoods){}else{
+                let LMoods=[]
+            }
+
+            
 			
 			//Activities
 
