@@ -1059,7 +1059,7 @@ addUpdateButtons: function(tbl, modForm){
                     modifyForms.displayModifySubProjForm(curr)
                     break
                 case "pu":
-                    modifyForms.displayModifyPUForm(curr)	
+                    modifyForms.displayModifyPUForm(curr)	/local1.htm
                     break
             }
         });
@@ -1073,7 +1073,8 @@ addColorBox: function(tbl){
 
     for (let i = 0; i < rows.length; i++) {
         let row = rows[i]
-        let clr = rows[i].cells[3].innerHTML
+        //let clr = rows[i].cells[3].innerHTML
+        let clr = rows[i].cells[2].innerHTML
         let cell = row.insertCell(-1)
         cell.style.backgroundColor = clr
         cell.classList.add("clrBox")
