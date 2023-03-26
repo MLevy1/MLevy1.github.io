@@ -2019,7 +2019,6 @@ if(document.getElementById("modifyFormContainer").innerHTML!=""){
                     var boxId = "svgEventChart";
                     var boxStartX = svgboxstartxcoord(Date.parse(LEvents[i][0]));
                     var boxWidth = (eventLength / (24*60*60*1000))*svgWidthNum;
-                    //var boxFill = findActivityColor(LEvents[i][1]);
                     let boxFill = objLPU[objLAct[LEvents[i][1]].UCode].Color
 
                     if(boxStartX<0){
@@ -2376,25 +2375,6 @@ showChart: function(){
     }
 }
 
-}
-
-//determines the color of each box on the event chart
-//**CAN BE REPLACED BY objLPU[objAct[ActID].UCode].Color**
-function findActivityColor(ActID){
-
-var arrAct = LActsAll[0];
-
-var ans = $.inArray(ActID, arrAct);
-
-var PU = LActsAll[2][ans];
-
-var arrLPU = LPU[0];
-
-var an2 = $.inArray(PU, arrLPU);
-
-var clr = LPU[2][an2];
-
-return clr;
 }
 
 //sets the colors for the boxes in the mood chart
