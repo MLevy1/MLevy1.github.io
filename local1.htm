@@ -1295,13 +1295,15 @@ displayModifyActForm: function(act) {
             inputElementProfileCode.id = "PCode"
             formElement.appendChild (inputElementProfileCode)
         
+            /*
         const inputElementActivityStatus = document.createElement("input");
             inputElementActivityStatus.type = "text";
             inputElementActivityStatus.name = "Status";
             inputElementActivityStatus.value = objLAct[act].Status
             inputElementActivityStatus.id = "Status";
             formElement.appendChild ( inputElementActivityStatus );
-            
+            */
+           
         const submitBtn = document.createElement("input");
             submitBtn.type = "submit";
             submitBtn.value = "Submit";
@@ -2381,26 +2383,26 @@ showChart: function(){
 
 function moodColor(mood){
 
-switch(Number(mood)){
+    switch(Number(mood)){
 
-    case -1:
-        clr = "red";
-        break;
-    case -0.5:
-        clr = "yellow";
-        break;
-    case 0:
-        clr = "gray";
-        break;
-    case 0.5:
-        clr = "yellowgreen";
-        break;
-    case 1:
-        clr = "green";
-        break;
-}
+        case -1:
+            clr = "red";
+            break;
+        case -0.5:
+            clr = "yellow";
+            break;
+        case 0:
+            clr = "gray";
+            break;
+        case 0.5:
+            clr = "yellowgreen";
+            break;
+        case 1:
+            clr = "green";
+            break;
+    }
 
-return clr;
+    return clr;
 }
 
 //determines the starting x coord of each colored box in the svg charts
@@ -2474,186 +2476,183 @@ svg.setAttributeNS("http://www.w3.org/2000/xmlns/", "xmlns:xlink", "http://www.w
 element.appendChild(svg);
 }
 
-function resetSVG(id){
+    function resetSVG(id){
 
-id = "#"+id;
+        id = "#"+id;
 
-$(id).empty();
-}
-
-
-
-function displaySVGChart(){
-
-if(i>0){
-    
-    var at = svgboxstartxcoord(Date.parse(LEvents[i-1][0]));
-    
-    
-}else{
-
-    var at = svgboxstartxcoord(Date.parse(LEvents[i][0]));
-
-}
-
-var ac0 = "svgEventChart";
-var ac1 = svgboxstartxcoord(Date.parse(LEvents[i][0]));
-var ac2 = (eventLength / (24*60*60*1000))*svgWidthNum;
-
-var ac3 = findActivityColor(LEvents[i][1]);
-
-if(ac1<0){
-
-    if(at>0){
-    
-        drawbox(ac0, 0, at, ac3);
-    
+        $(id).empty();
     }
 
-}
+    function displaySVGChart(){
 
-if(ac1>0){
+        if(i>0){
+            
+            var at = svgboxstartxcoord(Date.parse(LEvents[i-1][0]));
+            
+        }else{
 
-    drawbox(ac0, ac1, ac2, ac3);
+            var at = svgboxstartxcoord(Date.parse(LEvents[i][0]));
 
-}
+        }
 
-}
+        var ac0 = "svgEventChart";
+        var ac1 = svgboxstartxcoord(Date.parse(LEvents[i][0]));
+        var ac2 = (eventLength / (24*60*60*1000))*svgWidthNum;
+
+        var ac3 = findActivityColor(LEvents[i][1]);
+
+        if(ac1<0){
+
+            if(at>0){
+            
+                drawbox(ac0, 0, at, ac3);
+            
+            }
+
+        }
+
+        if(ac1>0){
+
+            drawbox(ac0, ac1, ac2, ac3);
+
+        }
+
+    }
         </script>
 		<script>
             //mood
             function displayLMoods(){
 
-resetSVG("svgMoodChart");
+                resetSVG("svgMoodChart");
 
-LMoods.sort();
+                LMoods.sort();
 
-LMoods.reverse();
+                LMoods.reverse();
 
-MoodsLen = LMoods.length;
+                MoodsLen = LMoods.length;
 
-const minDate = Date.now()-86400000;
+                const minDate = Date.now()-86400000;
 
-text = "<table class='eventList'>";
+                text = "<table class='eventList'>";
 
-text += "<thead>";
+                text += "<thead>";
 
-    text += "<th colspan=2></th>";
-    text += "<th>Date</th>";
-    text += "<th>Time</th>";
-    text += "<th>Mood</th>";
-    text += "<th>Dur</th>";
-    
-text += "</thead>";
+                    text += "<th colspan=2></th>";
+                    text += "<th>Date</th>";
+                    text += "<th>Time</th>";
+                    text += "<th>Mood</th>";
+                    text += "<th>Dur</th>";
+                    
+                text += "</thead>";
 
-text += "</tbody>";
-    
-//start eventDuration calc (should be function)
+                text += "</tbody>";
+                    
+                //start eventDuration calc (should be function)
 
-for (i = 0; i < MoodsLen; i++) {
+                for (i = 0; i < MoodsLen; i++) {
 
-    if(i==0){
-        
-        var eventLength = Date.now()-Date.parse(LMoods[i][0]);
-        
-    }else{
-
-
-        eventLength = Date.parse(LMoods[i-1][0])-Date.parse(LMoods[i][0]);
-    
-    }
-    
-    formatEventDuration(eventLength);
-    
-    if(i>0){
-    
-        var boxStart = svgboxstartxcoord(Date.parse(LMoods[i-1][0]));
-        
-    }else{
-    
-        var boxStart = svgboxstartxcoord(Date.parse(LMoods[i][0]));
-        
-    }
-    
-    var boxId = "svgMoodChart";
-    var boxStartX = svgboxstartxcoord(Date.parse(LMoods[i][0]));
-    var boxWidth = (eventLength / (24*60*60*1000))*svgWidthNum;
-    var boxFill = moodColor(LMoods[i][1]);
-    
-    if(boxStartX<0){
-    
-        if(boxStart>0){
-        
-            drawbox(boxId, 0, boxStart, boxFill);
-        
-        }
-    
-    }
-
-    if(boxWidth>0){
-    
-        drawbox(boxId, boxStartX, boxWidth, boxFill);
-
-    }
-    
-    //end eventDuration calc
-    
-    let arr_disp_time = FixTime(LMoods[i][0]);
-    
-    if(Date.parse(LMoods[i][0]) > minDate){
-    
-        text += 
-            "<tr>" +
-                "<td>" +
-                    "<input type=button value=+ class=slnk onclick=MPost('"+ LMoods[i][1] + "','" + LMoods[i][0] + "','" + i+"') + />" +
-                "</td><td>" +
-                    "<input type=button  value=- class=slnk onclick=delMood("+i+") + />" +
-                "</td><td>" +
-                    arr_disp_time[4] +
-                "</td><td>" +
-                    arr_disp_time[5] +
-                "</td><td>" +
-                    LMoods[i][1] +
-                "</td><td>" +
-                    eventDuration +
-                "</td>" +
-            "</tr>";
-            
-    }
-    
-}
-
-text += "</table>";
-
-svgtext('svgMoodChart');
-
-document.getElementById("moodListContainer").innerHTML = text;
-
-const a = LMoods[0][1];
-
-$( "#moodIndicator" ).css("color", moodColor(a));
-
-}
+                    if(i==0){
+                        
+                        var eventLength = Date.now()-Date.parse(LMoods[i][0]);
+                        
+                    }else{
 
 
-function btnLMood(a){
+                        eventLength = Date.parse(LMoods[i-1][0])-Date.parse(LMoods[i][0]);
+                    
+                    }
+                    
+                    formatEventDuration(eventLength);
+                    
+                    if(i>0){
+                    
+                        var boxStart = svgboxstartxcoord(Date.parse(LMoods[i-1][0]));
+                        
+                    }else{
+                    
+                        var boxStart = svgboxstartxcoord(Date.parse(LMoods[i][0]));
+                        
+                    }
+                    
+                    var boxId = "svgMoodChart";
+                    var boxStartX = svgboxstartxcoord(Date.parse(LMoods[i][0]));
+                    var boxWidth = (eventLength / (24*60*60*1000))*svgWidthNum;
+                    var boxFill = moodColor(LMoods[i][1]);
+                    
+                    if(boxStartX<0){
+                    
+                        if(boxStart>0){
+                        
+                            drawbox(boxId, 0, boxStart, boxFill);
+                        
+                        }
+                    
+                    }
 
-var selPost = $("#selPost").val();
+                    if(boxWidth>0){
+                    
+                        drawbox(boxId, boxStartX, boxWidth, boxFill);
 
-setETime();
+                    }
+                    
+                    //end eventDuration calc
+                    
+                    let arr_disp_time = FixTime(LMoods[i][0]);
+                    
+                    if(Date.parse(LMoods[i][0]) > minDate){
+                    
+                        text += 
+                            "<tr>" +
+                                "<td>" +
+                                    "<input type=button value=+ class=slnk onclick=MPost('"+ LMoods[i][1] + "','" + LMoods[i][0] + "','" + i+"') + />" +
+                                "</td><td>" +
+                                    "<input type=button  value=- class=slnk onclick=delMood("+i+") + />" +
+                                "</td><td>" +
+                                    arr_disp_time[4] +
+                                "</td><td>" +
+                                    arr_disp_time[5] +
+                                "</td><td>" +
+                                    LMoods[i][1] +
+                                "</td><td>" +
+                                    eventDuration +
+                                "</td>" +
+                            "</tr>";
+                            
+                    }
+                    
+                }
 
-LMoods.push([sqTime(datetimeValue), String(a)]);
+                text += "</table>";
 
-$( "#moodIndicator" ).css("color", moodColor(a));
+                svgtext('svgMoodChart');
 
-if(selPost==="Y"){
+                document.getElementById("moodListContainer").innerHTML = text;
 
-    MPost(a, datetimeValue);
+                const a = LMoods[0][1];
 
-}
+                $( "#moodIndicator" ).css("color", moodColor(a));
 
-resetAll();
-}
+            }
+
+
+            function btnLMood(a){
+
+                var selPost = $("#selPost").val();
+
+                setETime();
+
+                LMoods.push([sqTime(datetimeValue), String(a)]);
+
+                $( "#moodIndicator" ).css("color", moodColor(a));
+
+                if(selPost==="Y"){
+
+                    //MPost(a, datetimeValue);
+
+                }
+
+                resetAll();
+            }
 
 
 /*
@@ -2671,39 +2670,39 @@ resetAll();
 }
 */
 
-function delMood(i){
-            
-var q = "Delete "+LMoods[i]+"?";
+            function delMood(i){
+                        
+                var q = "Delete "+LMoods[i]+"?";
 
-var c = confirm(q);
+                var c = confirm(q);
 
-if (c == true){
+                if (c == true){
 
-    var etime = sqTime(LMoods[i][0]); 
+                    var etime = sqTime(LMoods[i][0]); 
 
-    var a = LMoods.splice(i, 1);
-    
-    //JQDel(etime, 'tblMood', 'MoodDT');
+                    var a = LMoods.splice(i, 1);
+                    
+                    //JQDel(etime, 'tblMood', 'MoodDT');
 
-    resetAll();
+                    resetAll();
 
-}
-}
+                }
+            }
 
-function resetLMoods(){
+            function resetLMoods(){
 
-if(LMoods === undefined || LMoods.length == 0) {
+                if(LMoods === undefined || LMoods.length == 0) {
 
-    //do nothing
+                    //do nothing
 
-}else{
+                }else{
 
-    localStorage.setItem("LSMoods", JSON.stringify(LMoods));
+                    localStorage.setItem("LSMoods", JSON.stringify(LMoods));
 
-    displayLMoods();
+                    displayLMoods();
 
-}
-}
+                }
+            }
         </script>
 		<script src="https://cdn.jsdelivr.net/npm/luxon@3.3.0/build/global/luxon.min.js" integrity="sha256-Nn+JGDrq3PuTxcDfJmmI0Srj5LpfOFlKqEiPwQK7y40=" crossorigin="anonymous"></script>
 		<meta charset="UTF-8">
@@ -2970,7 +2969,16 @@ if(LMoods === undefined || LMoods.length == 0) {
                 let LMoods=[]
             }
 
+            const objLMoods = {}
             
+            if (LMoods) {
+
+                for(i=0; i<LMoods.length; i++) {
+
+                    objLMoods[LMoods[i][0]] = {startTime: LMoods[i][0], mood: LMoods[i][1]}
+
+                }
+            }
 			
 			//Activities
 
