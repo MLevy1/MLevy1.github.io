@@ -2257,7 +2257,7 @@ if(document.getElementById("modifyFormContainer").innerHTML!=""){
             
             function JQPost(act, cont, dtime){
             
-                $.post("http://98.24.34.198/add/AddJQ.php",
+                $.post("http://98.24.34.198/timedb/add/AddJQ.php",
                 {
                     v1: act,
                     v2: cont,
@@ -2656,10 +2656,10 @@ element.appendChild(svg);
             }
 
 
-/*
+
 function MPost(mood, dtime, i){
 
-$.post("./add/AddJQ.php",
+$.post("http://98.24.34.198/timedb/add/AddJQ.php",
 {
     v1: dtime,
     v2: mood,
@@ -2669,7 +2669,7 @@ $.post("./add/AddJQ.php",
 resetAll();
 
 }
-*/
+
 
             function delMood(i){
                         
@@ -3766,7 +3766,7 @@ resetAll();
 				ELen = LEvents.length;
 				MLen = LMoods.length;
 
-				for (var i=0; i<50; i++) {
+				for (var i=0; i<ELen; i++) {
 
 					var tvar = LEvents[i][0];
 					var act = LEvents[i][1];
@@ -3776,7 +3776,7 @@ resetAll();
       
 				}
 
-				for (var i=0; i<50; i++) {
+				for (var i=0; i<MLen; i++) {
 
 					var dtime = LMoods[i][0];
 					var mood = LMoods[i][1];
